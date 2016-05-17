@@ -15,6 +15,7 @@ class QuestionViewController: UIViewController {
 
         // Do any additional setup after loading the view.
 
+        /*
         //ユーザーデフォルトにアクセスする方法
         let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
@@ -33,6 +34,8 @@ class QuestionViewController: UIViewController {
         default:
             print("error!")
         }
+*/
+        self.view.backgroundColor = GeneralManager.InitView()
     }
 
     override func didReceiveMemoryWarning() {
