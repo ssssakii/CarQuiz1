@@ -58,7 +58,9 @@ class ViewController: UIViewController, UIToolbarDelegate {
      UIBarButtonItemが押された際に呼ばれる.
      */
     func onClickButton(sender: UIBarButtonItem) {
-                
+        
+        print(sender.tag)
+        
         //ユーザーデフォルトにアクセスする方法
         let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
