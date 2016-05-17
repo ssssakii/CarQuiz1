@@ -19,7 +19,21 @@ class ViewController: UIViewController, UIToolbarDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         
         // 背景を青色に変更する.
-        self.view.backgroundColor = UIColor.cyanColor()
+        // self.view.backgroundColor = UIColor.cyanColor()
+        let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        if saveData.objectForKey("colortag") != nil {
+            let color = saveData.objectForKey("colortag") as! Int
+            switch color {
+            case 1:
+                self.view.backgroundColor = UIColor.yellowColor()
+            case 2:
+                self.view.backgroundColor = UIColor.greenColor()
+            case 3:
+                self.view.backgroundColor = UIColor.blueColor()
+            default:
+                print("error!")
+            }
+        }
         
         // ツールバーのサイズを決める.
         myToolbar = UIToolbar(frame: CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 40.0))
@@ -52,13 +66,13 @@ class ViewController: UIViewController, UIToolbarDelegate {
         // ツールバーに追加する.
         self.view.addSubview(myToolbar)
         
-
+        
     }
-
+    
     
     /*
-    UIBarButtonItemが押された際に呼ばれる.
-    */
+     UIBarButtonItemが押された際に呼ばれる.
+     */
     func onClickButton(sender: UIBarButtonItem) {
         print(sender.tag)
         switch sender.tag {
@@ -78,19 +92,7 @@ class ViewController: UIViewController, UIToolbarDelegate {
         //UserDefaultsに鍵を使って値を書き込む方法
         saveData.setObject(sender.tag, forKey: "colortag")
         
-        //UserDefaultsに鍵を使って値を取り出す方法
-        let color = saveData.objectForKey("colortag") as! Int
         
-        switch color {
-        case 1:
-            self.view.backgroundColor = UIColor.yellowColor()
-        case 2:
-            self.view.backgroundColor = UIColor.greenColor()
-        case 3:
-            self.view.backgroundColor = UIColor.blueColor()
-        default:
-            print("error!")
-        }
         
     }
     
@@ -102,8 +104,8 @@ class ViewController: UIViewController, UIToolbarDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-
+    
+    
+    
 }
 
