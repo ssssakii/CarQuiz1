@@ -14,6 +14,26 @@ class QuestionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+
+        //ユーザーデフォルトにアクセスする方法
+        let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        
+        //UserDefaultsに鍵を使って値を書き込む方法
+        //saveData.setObject(sender.tag, forKey: "colortag")
+        //UserDefaultsに鍵を使って値を取り出す方法
+        let color = saveData.objectForKey("colortag") as! Int
+        
+        switch color {
+        case 1:
+            self.view.backgroundColor = UIColor.yellowColor()
+        case 2:
+            self.view.backgroundColor = UIColor.greenColor()
+        case 3:
+            self.view.backgroundColor = UIColor.blueColor()
+        default:
+            print("error!")
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
