@@ -97,10 +97,14 @@ class ViewController: UIViewController, UIToolbarDelegate {
         saveData.setObject(sender.tag, forKey: "colortag") 
         
     }
+    @IBAction func AnimTest(sender: UIButton) {
+        AnimationManager.animateButton(sender)
+    }
     
     @IBAction func toQuestion() {
         self.performSegueWithIdentifier("toQuestionViewController", sender: nil)
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
