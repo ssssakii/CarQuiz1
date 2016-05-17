@@ -20,20 +20,7 @@ class ViewController: UIViewController, UIToolbarDelegate {
         
         // 背景を青色に変更する.
         // self.view.backgroundColor = UIColor.cyanColor()
-        let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        if saveData.objectForKey("colortag") != nil {
-            let color = saveData.objectForKey("colortag") as! Int
-            switch color {
-            case 1:
-                self.view.backgroundColor = UIColor.yellowColor()
-            case 2:
-                self.view.backgroundColor = UIColor.greenColor()
-            case 3:
-                self.view.backgroundColor = UIColor.blueColor()
-            default:
-                print("error!")
-            }
-        }
+        self.view.backgroundColor = GeneralManager.InitView()
         
         // ツールバーのサイズを決める.
         myToolbar = UIToolbar(frame: CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 40.0))
