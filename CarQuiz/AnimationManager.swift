@@ -12,6 +12,7 @@ class AnimationManager: NSObject {
     //ボタン
     class func animateButton(button: UIButton) {
         button.transform = CGAffineTransformMakeScale(0.1, 0.1)
+        
         UIView.animateWithDuration(2.0,
             delay: 0,
             usingSpringWithDamping: 0.2,
@@ -19,6 +20,7 @@ class AnimationManager: NSObject {
             options: UIViewAnimationOptions.AllowUserInteraction,
             animations: {
                 button.transform = CGAffineTransformIdentity
-            }, completion: nil)
+            },
+            completion: nil)
     }
 }
