@@ -8,20 +8,73 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    //aaaaaaa
-    //eee
-    //bbb
+class ViewController: UIViewController, UIToolbarDelegate {
+    
+    private var myToolbar: UIToolbar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // 背景を青色に変更する.
+        self.view.backgroundColor = UIColor.cyanColor()
+        
+        // ツールバーのサイズを決める.
+        myToolbar = UIToolbar(frame: CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 40.0))
+        
+        // ツールバーの位置を決める.
+        myToolbar.layer.position = CGPoint(x: self.view.bounds.size.width/2, y: self.view.bounds.size.height-20.0)
+        
+        // ツールバーの色を決める.
+        myToolbar.barStyle = .BlackTranslucent
+        myToolbar.tintColor = UIColor.blackColor()
+        myToolbar.backgroundColor = UIColor.whiteColor()
+        
+        // ボタン１を生成
+        let myUIBarButtonYellow: UIBarButtonItem = UIBarButtonItem(title: "Yellow", style: .Plain, target: self, action: "onClickButton:" )
+        myUIBarButtonYellow.tag = 1
+        
+        
+        // ボタン２を生成
+        let myUIBarButtonGreen: UIBarButtonItem = UIBarButtonItem(title: "Green", style: .Plain, target: self, action: "onClickButton:" )
+        myUIBarButtonYellow.tag = 2
+        
+        // ボタン３を生成
+        let myUIBarButtonBlue: UIBarButtonItem = UIBarButtonItem(title: "Blue", style: .Plain, target: self, action: "onClickButton:" )
+        myUIBarButtonYellow.tag = 3
+        
+        // ボタンをツールバーに入れる.
+        myToolbar.items = [myUIBarButtonYellow, myUIBarButtonGreen, myUIBarButtonBlue]
+        
+        // ツールバーに追加する.
+        self.view.addSubview(myToolbar)
+        
+
     }
 
+    
+    /*
+    UIBarButtonItemが押された際に呼ばれる.
+    */
+    internal func onClickButton(sender: UIBarButtonItem) {
+        
+        switch sender.tag {
+        case 1:
+            self.view.backgroundColor = UIColor.yellowColor()
+        case 2:
+            self.view.backgroundColor = UIColor.greenColor()
+        case 3:
+            self.view.backgroundColor = UIColor.blueColor()
+        default:
+            print("error!")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 
 }

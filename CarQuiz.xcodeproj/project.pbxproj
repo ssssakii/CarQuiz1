@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840539121CEB69950056F345 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539111CEB69950056F345 /* QuestionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		840539141CEB69A70056F345 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539131CEB69A70056F345 /* ResultViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		840539161CEB69C90056F345 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539151CEB69C90056F345 /* AnswerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		84E19A0E1CE8D82300E3DFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */; };
 		84E19A101CE8D82300E3DFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0F1CE8D82300E3DFCD /* ViewController.swift */; };
 		84E19A131CE8D82300E3DFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E19A111CE8D82300E3DFCD /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840539111CEB69950056F345 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		840539131CEB69A70056F345 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		840539151CEB69C90056F345 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		84E19A0A1CE8D82300E3DFCD /* CarQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E19A0F1CE8D82300E3DFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 			children = (
 				84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */,
 				84E19A0F1CE8D82300E3DFCD /* ViewController.swift */,
+				840539111CEB69950056F345 /* QuestionViewController.swift */,
+				840539151CEB69C90056F345 /* AnswerViewController.swift */,
+				840539131CEB69A70056F345 /* ResultViewController.swift */,
 				84E19A111CE8D82300E3DFCD /* Main.storyboard */,
 				84E19A141CE8D82300E3DFCD /* Assets.xcassets */,
 				84E19A161CE8D82300E3DFCD /* LaunchScreen.storyboard */,
@@ -260,6 +269,9 @@
 			files = (
 				84E19A101CE8D82300E3DFCD /* ViewController.swift in Sources */,
 				84E19A0E1CE8D82300E3DFCD /* AppDelegate.swift in Sources */,
+				840539161CEB69C90056F345 /* AnswerViewController.swift in Sources */,
+				840539121CEB69950056F345 /* QuestionViewController.swift in Sources */,
+				840539141CEB69A70056F345 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				84E19A341CE8D82300E3DFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E19A351CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				84E19A371CE8D82300E3DFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E19A381CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				84E19A3A1CE8D82300E3DFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
