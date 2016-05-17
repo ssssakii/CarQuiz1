@@ -45,13 +45,9 @@ class ViewController: UIViewController, UIToolbarDelegate {
         let myUIBarButtonBlue: UIBarButtonItem = UIBarButtonItem(title: "Blue", style: .Plain, target: self, action: "onClickButton:" )
         myUIBarButtonBlue.tag = 3
         
-        // ボタン４を生成
-        let colorsaveButton: UIBarButtonItem = UIBarButtonItem(title: "Save", style: .Plain, target: self, action: "onClickButton:" )
-        colorsaveButton.tag = 4
-
         
         // ボタンをツールバーに入れる.
-        myToolbar.items = [myUIBarButtonYellow, myUIBarButtonGreen, myUIBarButtonBlue, colorsaveButton]
+        myToolbar.items = [myUIBarButtonYellow, myUIBarButtonGreen, myUIBarButtonBlue]
         
         // ツールバーに追加する.
         self.view.addSubview(myToolbar)
@@ -72,12 +68,26 @@ class ViewController: UIViewController, UIToolbarDelegate {
             self.view.backgroundColor = UIColor.greenColor()
         case 3:
             self.view.backgroundColor = UIColor.blueColor()
-        case 4:
-            //ユーザーデフォルトにアクセスする方法
-            let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-            
-            //UserDefaultsに鍵を使って値を書き込む方法
-            saveData.setObject(sender.tag, forKey: "colortag")
+        default:
+            print("error!")
+        }
+        
+        //ユーザーデフォルトにアクセスする方法
+        let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        
+        //UserDefaultsに鍵を使って値を書き込む方法
+        saveData.setObject(sender.tag, forKey: "colortag")
+        
+        //UserDefaultsに鍵を使って値を取り出す方法
+        let color = saveData.objectForKey("colortag") as! Int
+        
+        switch color {
+        case 1:
+            self.view.backgroundColor = UIColor.yellowColor()
+        case 2:
+            self.view.backgroundColor = UIColor.greenColor()
+        case 3:
+            self.view.backgroundColor = UIColor.blueColor()
         default:
             print("error!")
         }
