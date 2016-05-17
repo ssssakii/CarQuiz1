@@ -83,7 +83,9 @@ class ViewController: UIViewController, UIToolbarDelegate {
         
     }
     @IBAction func AnimTest(sender: UIButton) {
-        AnimationManager.animateButton(sender)
+        //AnimationManager.animateButton(sender)
+        AnimationManager.fatButton(sender)
+
     }
     
     @IBAction func toQuestion() {
