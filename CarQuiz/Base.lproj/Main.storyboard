@@ -17,11 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwD-dH-IS2">
-                                <rect key="frame" x="75" y="207" width="96" height="74"/>
+                                <rect key="frame" x="112" y="247" width="96" height="74"/>
+                                <color key="backgroundColor" red="0.9979797751594206" green="1" blue="0.97655130583036787" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
                                     <action selector="toQuestion" destination="7Zg-Pg-k8s" eventType="touchUpInside" id="Sq7-9a-FoS"/>
                                     <segue destination="ixu-RF-fjP" kind="modal" identifier="toQuestionViewController" id="DqN-0f-FKR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQY-bo-wwJ">
+                                <rect key="frame" x="112" y="88" width="96" height="74"/>
+                                <color key="backgroundColor" red="0.15044177631131994" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="あぐり"/>
+                                <connections>
+                                    <action selector="AnimTest:" destination="7Zg-Pg-k8s" eventType="touchUpInside" id="9vs-15-XDg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,11 +56,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocj-uj-olA">
                                 <rect key="frame" x="166" y="330" width="96" height="96"/>
+                                <color key="backgroundColor" red="1" green="0.96694071767904755" blue="0.97984786454297224" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="×"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnU-vJ-2Al">
                                 <rect key="frame" x="62" y="330" width="96" height="96"/>
+                                <color key="backgroundColor" red="0.99590038494355493" green="1" blue="0.97755166190617482" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="○"/>
                             </button>
