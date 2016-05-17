@@ -39,11 +39,11 @@ class ViewController: UIViewController, UIToolbarDelegate {
         
         // ボタン２を生成
         let myUIBarButtonGreen: UIBarButtonItem = UIBarButtonItem(title: "Green", style: .Plain, target: self, action: "onClickButton:" )
-        myUIBarButtonYellow.tag = 2
+        myUIBarButtonGreen.tag = 2
         
         // ボタン３を生成
         let myUIBarButtonBlue: UIBarButtonItem = UIBarButtonItem(title: "Blue", style: .Plain, target: self, action: "onClickButton:" )
-        myUIBarButtonYellow.tag = 3
+        myUIBarButtonBlue.tag = 3
         
         // ボタンをツールバーに入れる.
         myToolbar.items = [myUIBarButtonYellow, myUIBarButtonGreen, myUIBarButtonBlue]
@@ -59,7 +59,7 @@ class ViewController: UIViewController, UIToolbarDelegate {
     UIBarButtonItemが押された際に呼ばれる.
     */
     internal func onClickButton(sender: UIBarButtonItem) {
-        
+        print(sender.tag)
         switch sender.tag {
         case 1:
             self.view.backgroundColor = UIColor.yellowColor()
