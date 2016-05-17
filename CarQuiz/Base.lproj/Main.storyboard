@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="i1M-5u-5rO">
             <objects>
-                <viewController id="7Zg-Pg-k8s" sceneMemberID="viewController">
+                <viewController id="7Zg-Pg-k8s" customClass="ViewController" customModule="CarQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bka-1d-1gZ"/>
                         <viewControllerLayoutGuide type="bottom" id="tiY-bV-dv5"/>
