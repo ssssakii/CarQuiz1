@@ -33,7 +33,6 @@ class QuestionViewController: UIViewController {
         default:
             print("error!")
         }
-
     }
 
     override func didReceiveMemoryWarning() {

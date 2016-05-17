@@ -18,8 +18,6 @@ class ViewController: UIViewController, UIToolbarDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // 背景を青色に変更する.
-        self.view.backgroundColor = UIColor.cyanColor()
         
         // ツールバーのサイズを決める.
         myToolbar = UIToolbar(frame: CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 40.0))
@@ -60,18 +58,7 @@ class ViewController: UIViewController, UIToolbarDelegate {
     UIBarButtonItemが押された際に呼ばれる.
     */
     func onClickButton(sender: UIBarButtonItem) {
-        print(sender.tag)
-        switch sender.tag {
-        case 1:
-            self.view.backgroundColor = UIColor.yellowColor()
-        case 2:
-            self.view.backgroundColor = UIColor.greenColor()
-        case 3:
-            self.view.backgroundColor = UIColor.blueColor()
-        default:
-            print("error!")
-        }
-        
+                
         //ユーザーデフォルトにアクセスする方法
         let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
