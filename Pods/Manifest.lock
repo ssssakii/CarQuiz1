@@ -1,0 +1,10 @@
+PODS:
+  - TKSwarmAlert (0.0.4)
+
+DEPENDENCIES:
+  - TKSwarmAlert
+
+SPEC CHECKSUMS:
+  TKSwarmAlert: 8fe22e7b9beec7e1e5d9506483e8f7c0272767eb
+
+COCOAPODS: 0.39.0
