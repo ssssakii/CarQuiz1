@@ -10,6 +10,7 @@ class GeneralManager: NSObject {
     
     //保存している色を呼び出すメソッド
     class func InitView() -> UIColor {
+        
         let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
         if saveData.objectForKey("colortag") != nil {
             let color = saveData.objectForKey("colortag") as! Int

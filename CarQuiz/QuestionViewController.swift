@@ -34,7 +34,7 @@ class QuestionViewController: UIViewController {
         default:
             print("error!")
         }
-*/
+        */
         self.view.backgroundColor = GeneralManager.InitView()
     }
 
