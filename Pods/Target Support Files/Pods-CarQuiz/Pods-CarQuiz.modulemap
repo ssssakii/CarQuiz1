@@ -1,0 +1,6 @@
+framework module Pods_CarQuiz {
+  umbrella header "Pods-CarQuiz-umbrella.h"
+
+  export *
+  module * { export * }
+}

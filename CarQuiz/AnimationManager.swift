@@ -21,10 +21,17 @@ class AnimationManager: NSObject {
                 button.transform = CGAffineTransformIdentity
             }, completion: nil)
     }
+    
     class func fatButton(button: UIButton) {
-        button.transform = CGAffineTransformMakeScale(0.1, 0.1) //初期値を元々の大きさの10分の１に
+        button.transform = CGAffineTransformMakeScale(0.6, 0.6) //初期値を元々の大きさの10分の１に
+        button.backgroundColor = UIColor.whiteColor();
+        button.clipsToBounds = false
+        button.layer.cornerRadius = 0
         UIView.animateWithDuration(2.0,animations: { //２秒かけて動くアニメーション
                 button.transform = CGAffineTransformMakeScale(1.0, 1.0) //もともとの大きさ
+            button.backgroundColor = UIColor.cyanColor();
+            button.clipsToBounds = true
+            button.layer.cornerRadius = 5
             }, completion: nil)
     }
 }
