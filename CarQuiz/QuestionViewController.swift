@@ -19,23 +19,6 @@ class QuestionViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.view.backgroundColor = GeneralManager.InitView()
         
-        let testView = UIView()
-        testView.backgroundColor = UIColor.orangeColor()
-        testView.frame = CGRect(x: 40, y: 40, width: 40, height: 40)
-        
-        let fallView = UIView()
-        fallView.backgroundColor = UIColor.redColor()
-        fallView.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
-        
-        let staticView = UIView()
-        staticView.backgroundColor = UIColor.blueColor()
-        staticView.frame = CGRect(x: 250, y: 250, width: 50, height: 50)
-        
-        let view: [UIView] = [testView,fallView,staticView]
-        
-        alert.show(type: TKSWBackgroundType.BrightBlur, views: view)
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,6 +26,44 @@ class QuestionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //○がtag==0 Xがtag==1
+    @IBAction func AnswerAction(sender: AnyObject) {
+        let infoView = UIView()
+        infoView.backgroundColor = UIColor.blueColor()
+        infoView.layer.cornerRadius = 10
+        infoView.clipsToBounds = true
+        infoView.frame = CGRect(x: self.view.center.x - 130, y: 100, width: 260, height: 160)
+        let infoLabel : UILabel  = UILabel(frame: CGRect(x: 10, y: 10, width: 240, height: 140))
+        infoLabel.numberOfLines = 0
+        infoLabel.textColor = UIColor.whiteColor()
+        infoLabel.text = "高田早紀のメンター名はさきんちょである。"
+        infoView.addSubview(infoLabel)
+        
+        let resultView = UIView()
+        resultView.backgroundColor = UIColor.redColor()
+        resultView.frame = CGRect(x: self.view.center.x - 100, y: 300, width: 200, height: 100)
+        resultView.layer.cornerRadius = 30
+        resultView.clipsToBounds = true
+        let resultLabel : UILabel  = UILabel(frame: CGRect(x: 10, y: 10, width: 180, height: 80))
+        resultLabel.numberOfLines = 0
+        resultLabel.textColor = UIColor.whiteColor()
+        resultLabel.textAlignment = NSTextAlignment.Center
+        
+        //○を選択
+        if(sender.tag == 0){
+            resultLabel.text = "不正解"
+            resultView.addSubview(resultLabel)
+            let view: [UIView] = [infoView,resultView]
+            alert.show(type: TKSWBackgroundType.Blur, views: view)
+        }
+        //xを選択
+        if(sender.tag == 1){
+            resultLabel.text = "正解"
+            resultView.addSubview(resultLabel)
+            let view: [UIView] = [infoView,resultView]
+            alert.show(type: TKSWBackgroundType.BrightBlur, views: view)
+        }
+    }
 
     /*
     // MARK: - Navigation

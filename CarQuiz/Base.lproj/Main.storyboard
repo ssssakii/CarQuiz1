@@ -54,19 +54,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocj-uj-olA">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocj-uj-olA">
                                 <rect key="frame" x="166" y="330" width="96" height="96"/>
                                 <color key="backgroundColor" red="1" green="0.96694071767904755" blue="0.97984786454297224" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
                                 <state key="normal" title="×"/>
+                                <connections>
+                                    <action selector="AnswerAction:" destination="ixu-RF-fjP" eventType="touchUpInside" id="m0a-2A-070"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnU-vJ-2Al">
                                 <rect key="frame" x="62" y="330" width="96" height="96"/>
                                 <color key="backgroundColor" red="0.99590038494355493" green="1" blue="0.97755166190617482" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="○"/>
+                                <connections>
+                                    <action selector="AnswerAction:" destination="ixu-RF-fjP" eventType="touchUpInside" id="jAc-jK-Jl6"/>
+                                </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Y4-Gl-UpA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="高田早紀のメンター名は「たかだん」である。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Y4-Gl-UpA">
                                 <rect key="frame" x="40" y="58" width="240" height="164"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
