@@ -142,7 +142,7 @@ class ViewController: UIViewController, UIToolbarDelegate {
     }
     
     @IBAction func toQuestion() {
-        self.performSegueWithIdentifier("toQuestionViewController", sender: nil)
+        //self.performSegueWithIdentifier("toQuestionViewController", sender: nil)
     }
 
     

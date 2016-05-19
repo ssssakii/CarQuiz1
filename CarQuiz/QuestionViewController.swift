@@ -23,11 +23,11 @@ class QuestionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
         self.view.backgroundColor = GeneralManager.InitView()
-        LoadCSV()        // ----- CSVファイル読み込み
         
+        LoadCSV()        // ----- CSVファイル読み込み
+        QuestionInit()
         
     }
     
@@ -97,6 +97,7 @@ class QuestionViewController: UIViewController {
     
     
     func QuestionInit(){
+        navigationItem.title = (String) (nowIndex + 1) + "問目"
         self.questionText.text = self.csvData[self.nowIndex].questionText
         if self.csvData[self.nowIndex].imageName != "null"{
             self.imageView.image = UIImage(named: self.csvData[self.nowIndex].imageName)
