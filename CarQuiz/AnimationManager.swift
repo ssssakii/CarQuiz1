@@ -34,4 +34,15 @@ class AnimationManager: NSObject {
             button.layer.cornerRadius = 5
             }, completion: nil)
     }
+    class func animateImageView(imageView: UIImageView) {
+        imageView.transform = CGAffineTransformMakeScale(0.1, 0.1)
+        UIView.animateWithDuration(2.0,
+                                   delay: 0,
+                                   usingSpringWithDamping: 0.2,
+                                   initialSpringVelocity: 6.0,
+                                   options: UIViewAnimationOptions.AllowUserInteraction,
+                                   animations: {
+                                    imageView.transform = CGAffineTransformIdentity
+            }, completion: nil)
+    }
 }
