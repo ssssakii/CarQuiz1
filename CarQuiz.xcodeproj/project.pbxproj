@@ -18,6 +18,9 @@
 		840539121CEB69950056F345 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539111CEB69950056F345 /* QuestionViewController.swift */; };
 		840539141CEB69A70056F345 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539131CEB69A70056F345 /* ResultViewController.swift */; };
 		840539161CEB69C90056F345 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539151CEB69C90056F345 /* AnswerViewController.swift */; };
+		84ADC22D1CEE1B150064968C /* car-front-in-magnifier-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */; settings = {ASSET_TAGS = (); }; };
+		84ADC22F1CEE1BB00064968C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22E1CEE1BB00064968C /* icon.png */; settings = {ASSET_TAGS = (); }; };
+		84ADC2311CEE1DF60064968C /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC2301CEE1DF60064968C /* tick.png */; settings = {ASSET_TAGS = (); }; };
 		84E19A0E1CE8D82300E3DFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */; };
 		84E19A101CE8D82300E3DFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0F1CE8D82300E3DFCD /* ViewController.swift */; };
 		84E19A131CE8D82300E3DFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E19A111CE8D82300E3DFCD /* Main.storyboard */; };
@@ -56,6 +59,9 @@
 		840539111CEB69950056F345 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		840539131CEB69A70056F345 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		840539151CEB69C90056F345 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car-front-in-magnifier-glass.png"; sourceTree = "<group>"; };
+		84ADC22E1CEE1BB00064968C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		84ADC2301CEE1DF60064968C /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
 		84E19A0A1CE8D82300E3DFCD /* CarQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E19A0F1CE8D82300E3DFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +201,9 @@
 				84E19A111CE8D82300E3DFCD /* Main.storyboard */,
 				03ADA61E1CED348C004889AB /* data.csv */,
 				84E19A141CE8D82300E3DFCD /* Assets.xcassets */,
+				84ADC2301CEE1DF60064968C /* tick.png */,
+				84ADC22E1CEE1BB00064968C /* icon.png */,
+				84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */,
 				84E19A161CE8D82300E3DFCD /* LaunchScreen.storyboard */,
 				84E19A191CE8D82300E3DFCD /* Info.plist */,
 			);
@@ -330,8 +339,11 @@
 			files = (
 				03ADA61F1CED348C004889AB /* data.csv in Resources */,
 				84E19A181CE8D82300E3DFCD /* LaunchScreen.storyboard in Resources */,
+				84ADC22F1CEE1BB00064968C /* icon.png in Resources */,
+				84ADC22D1CEE1B150064968C /* car-front-in-magnifier-glass.png in Resources */,
 				03BABB471CED7EE90009A4F5 /* img02.gif in Resources */,
 				84E19A151CE8D82300E3DFCD /* Assets.xcassets in Resources */,
+				84ADC2311CEE1DF60064968C /* tick.png in Resources */,
 				03BABB481CED7EE90009A4F5 /* img01.gif in Resources */,
 				84E19A131CE8D82300E3DFCD /* Main.storyboard in Resources */,
 				03BABB461CED7EE90009A4F5 /* img03.jpg in Resources */,

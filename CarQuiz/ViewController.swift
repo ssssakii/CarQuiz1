@@ -12,8 +12,9 @@ class ViewController: UIViewController, UIToolbarDelegate {
     
     private var myToolbar: UIToolbar!
     
+    // Twitter 起動画面
+    var logoImageView: UIImageView!
     
-    //aaaa
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -35,9 +36,22 @@ class ViewController: UIViewController, UIToolbarDelegate {
         }
         */
         
+        self.view.backgroundColor = UIColor.yellowColor()
+        //imageView作成
+        self.logoImageView = UIImageView(frame: CGRectMake(0, 0, 100, 100))
+        //画面centerに
+        self.logoImageView.center = self.view.center
+        //logo設定
+        self.logoImageView.image = UIImage(named: "tick")
+        //viewに追加
+        self.view.addSubview(self.logoImageView)
+        
+        
+        // background のマネージャー
         self.view.backgroundColor = GeneralManager.InitView()
 
         
+        /**** ToolBar ****/
         // ツールバーのサイズを決める.
         myToolbar = UIToolbar(frame: CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 40.0))
         
@@ -70,6 +84,29 @@ class ViewController: UIViewController, UIToolbarDelegate {
         self.view.addSubview(myToolbar)
         
         
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        //少し縮小するアニメーション
+        UIView.animateWithDuration(0.3,
+            delay: 1.0,
+            options: UIViewAnimationOptions.CurveEaseOut,
+            animations: { () in
+                self.logoImageView.transform = CGAffineTransformMakeScale(0.9, 0.9)
+            }, completion: { (Bool) in
+                
+        })
+        
+        //拡大させて、消えるアニメーション
+        UIView.animateWithDuration(0.2,
+            delay: 1.3,
+            options: UIViewAnimationOptions.CurveEaseOut,
+            animations: { () in
+                self.logoImageView.transform = CGAffineTransformMakeScale(1.2, 1.2)
+                self.logoImageView.alpha = 0
+            }, completion: { (Bool) in
+                self.logoImageView.removeFromSuperview()
+        })        
     }
     
     
