@@ -57,7 +57,7 @@ class QuestionViewController: UIViewController {
         let infoLabel : UILabel  = UILabel(frame: CGRect(x: 10, y: 10, width: 240, height: 140))
         infoLabel.numberOfLines = 0
         infoLabel.textColor = UIColor.whiteColor()
-        infoLabel.text = "高田早紀のメンター名はさきんちょである。"
+        infoLabel.text = "高田早記のメンター名はさきんちょである。"
         infoView.addSubview(infoLabel)
         
         let resultView = UIView()
@@ -72,17 +72,17 @@ class QuestionViewController: UIViewController {
         
         //○を選択
         if(sender.tag == 0){
-            resultLabel.text = "不正解"
-            resultView.addSubview(resultLabel)
-            let view: [UIView] = [infoView,resultView]
-            alert.show(type: TKSWBackgroundType.Blur, views: view)
-        }
-        //xを選択
-        if(sender.tag == 1){
             resultLabel.text = "正解"
             resultView.addSubview(resultLabel)
             let view: [UIView] = [infoView,resultView]
             alert.show(type: TKSWBackgroundType.BrightBlur, views: view)
+        }
+        //xを選択
+        if(sender.tag == 1){
+            resultLabel.text = "不正解"
+            resultView.addSubview(resultLabel)
+            let view: [UIView] = [infoView,resultView]
+            alert.show(type: TKSWBackgroundType.Blur, views: view)
         }
     }
 
