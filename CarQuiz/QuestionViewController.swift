@@ -12,10 +12,18 @@ import TKSwarmAlert
 class QuestionViewController: UIViewController {
     
     let alert = TKSwarmAlert()
-
+    //問題の写真
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var questionText: UITextView!
+    
+    var csvData: [Question] = []
+    
+    //今の問題番号
+    var nowIndex: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
 
         /*
@@ -39,9 +47,11 @@ class QuestionViewController: UIViewController {
         }
         */
         self.view.backgroundColor = GeneralManager.InitView()
-        
-    }
+        LoadCSV()        // ----- CSVファイル読み込み
 
+
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -85,15 +95,71 @@ class QuestionViewController: UIViewController {
             alert.show(type: TKSWBackgroundType.Blur, views: view)
         }
     }
+    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func QuestionInit(){
+        self.questionText.text = self.csvData[self.nowIndex].questionText
+        if self.csvData[self.nowIndex].imageName != "null"{
+            self.imageView.image = UIImage(named: self.csvData[self.nowIndex].imageName)
+            AnimationManager.animateImageView(self.imageView)
+        }else{
+            self.imageView.image = nil
+        }
     }
-    */
-
+    func AnswerCheck(answer : String) -> Bool{
+        if answer == self.csvData[self.nowIndex].correct{
+            return true
+        }else{
+            return false
+        }
+    }
+    
+    func LoadCSV(){
+        let csvBundle = NSBundle.mainBundle().pathForResource("data", ofType: "csv")
+        do {
+            var csvData: String = try String(contentsOfFile: csvBundle!, encoding: NSUTF8StringEncoding)
+            csvData = csvData.stringByReplacingOccurrencesOfString("\r", withString: "")
+            let csvArray = csvData.componentsSeparatedByString("\n")
+            for line in csvArray {
+                var question : Question! = Question()
+                let parts = line.componentsSeparatedByString(",")
+                var j: Int = 0
+                for part in parts {
+                    switch  j {
+                    case 1:
+                        question.questionText = part
+                        break
+                    case 2:
+                        question.correct = part
+                        break
+                    case 3:
+                        question.infoText = part
+                        break
+                    case 4:
+                        question.imageName = part
+                        self.csvData.append(question)
+                        break
+                    default:
+                        break
+                    }
+                    j += 1
+                }
+            }
+            self.questionText.text = self.csvData[self.nowIndex].questionText
+            if self.csvData[self.nowIndex].imageName != "null"{
+                self.imageView.image = UIImage(named: self.csvData[self.nowIndex].imageName)
+            }else{
+                self.imageView.image = nil
+            }
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+    }
+    
+    struct Question {
+        var questionText:String!
+        var correct:String!
+        var infoText:String!
+        var imageName:String!
+    }
 }

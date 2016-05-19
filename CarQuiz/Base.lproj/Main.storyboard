@@ -54,7 +54,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocj-uj-olA">
-                                <rect key="frame" x="166" y="330" width="96" height="96"/>
+                                <rect key="frame" x="165" y="400" width="96" height="96"/>
                                 <color key="backgroundColor" red="1" green="0.96694071767904755" blue="0.97984786454297224" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
                                 <state key="normal" title="×"/>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnU-vJ-2Al">
-                                <rect key="frame" x="62" y="330" width="96" height="96"/>
+                                <rect key="frame" x="61" y="400" width="96" height="96"/>
                                 <color key="backgroundColor" red="0.99590038494355493" green="1" blue="0.97755166190617482" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="○"/>
@@ -77,9 +77,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hu-8M-imN">
+                                <rect key="frame" x="79" y="176" width="163" height="152"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="imageView" destination="5hu-8M-imN" id="HrU-Rj-nNn"/>
+                        <outlet property="questionText" destination="5Y4-Gl-UpA" id="JAb-Qs-Yls"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdE-lV-Tct" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

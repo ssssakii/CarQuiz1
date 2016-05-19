@@ -1,1272 +1,667 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03E96F071CEB8AFA006AC050</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>03E96F0A1CEB8B5D006AC050</string>
-				<string>03E96F0C1CEB8C04006AC050</string>
-				<string>03E96F081CEB8B3A006AC050</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Manager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03E96F081CEB8B3A006AC050</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AnimationManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03E96F091CEB8B3A006AC050</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03E96F081CEB8B3A006AC050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>03E96F0A1CEB8B5D006AC050</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ColorManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03E96F0B1CEB8B5D006AC050</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03E96F0A1CEB8B5D006AC050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>03E96F0C1CEB8C04006AC050</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>GeneralManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03E96F0D1CEB8C04006AC050</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03E96F0C1CEB8C04006AC050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0D45D38163DEAAE63748403D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_CarQuiz.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1AD5A3E0A7BA8F2FA360F314</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0D45D38163DEAAE63748403D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3BF899817D7DBBC9A3DD03F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>4716B845E1D34003BF7F0B2C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>50874E8EA6A6BAA62E40EC79</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E8D86B370D9D24F96E93C661</string>
-				<string>A1B813BD1112B946C80FFBD5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A860B31003FB56C36DB1351</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D45D38163DEAAE63748403D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>840539111CEB69950056F345</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>QuestionViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840539121CEB69950056F345</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840539111CEB69950056F345</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>840539131CEB69A70056F345</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ResultViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840539141CEB69A70056F345</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840539131CEB69A70056F345</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>840539151CEB69C90056F345</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AnswerViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840539161CEB69C90056F345</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840539151CEB69C90056F345</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A011CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84E19A0C1CE8D82300E3DFCD</string>
-				<string>84E19A211CE8D82300E3DFCD</string>
-				<string>84E19A2C1CE8D82300E3DFCD</string>
-				<string>84E19A0B1CE8D82300E3DFCD</string>
-				<string>50874E8EA6A6BAA62E40EC79</string>
-				<string>1AD5A3E0A7BA8F2FA360F314</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A021CE8D82300E3DFCD</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>&#39640;&#30000;&#26089;&#35352;</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>84E19A091CE8D82300E3DFCD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.0.1</string>
-						<key>DevelopmentTeam</key>
-						<string>9VUNZHEC75</string>
-					</dict>
-					<key>84E19A1D1CE8D82300E3DFCD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.0.1</string>
-						<key>DevelopmentTeam</key>
-						<string>9VUNZHEC75</string>
-						<key>TestTargetID</key>
-						<string>84E19A091CE8D82300E3DFCD</string>
-					</dict>
-					<key>84E19A281CE8D82300E3DFCD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.0.1</string>
-						<key>DevelopmentTeam</key>
-						<string>9VUNZHEC75</string>
-						<key>TestTargetID</key>
-						<string>84E19A091CE8D82300E3DFCD</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>84E19A051CE8D82300E3DFCD</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>84E19A011CE8D82300E3DFCD</string>
-			<key>productRefGroup</key>
-			<string>84E19A0B1CE8D82300E3DFCD</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>84E19A091CE8D82300E3DFCD</string>
-				<string>84E19A1D1CE8D82300E3DFCD</string>
-				<string>84E19A281CE8D82300E3DFCD</string>
-			</array>
-		</dict>
-		<key>84E19A051CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84E19A301CE8D82300E3DFCD</string>
-				<string>84E19A311CE8D82300E3DFCD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84E19A061CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>03E96F0B1CEB8B5D006AC050</string>
-				<string>03E96F091CEB8B3A006AC050</string>
-				<string>84E19A101CE8D82300E3DFCD</string>
-				<string>84E19A0E1CE8D82300E3DFCD</string>
-				<string>840539161CEB69C90056F345</string>
-				<string>03E96F0D1CEB8C04006AC050</string>
-				<string>840539121CEB69950056F345</string>
-				<string>840539141CEB69A70056F345</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A071CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5A860B31003FB56C36DB1351</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A081CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84E19A181CE8D82300E3DFCD</string>
-				<string>84E19A151CE8D82300E3DFCD</string>
-				<string>84E19A131CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A091CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>84E19A321CE8D82300E3DFCD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4716B845E1D34003BF7F0B2C</string>
-				<string>84E19A061CE8D82300E3DFCD</string>
-				<string>84E19A071CE8D82300E3DFCD</string>
-				<string>84E19A081CE8D82300E3DFCD</string>
-				<string>AF55F5B867D92A19CBC1E199</string>
-				<string>3BF899817D7DBBC9A3DD03F4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CarQuiz</string>
-			<key>productName</key>
-			<string>CarQuiz</string>
-			<key>productReference</key>
-			<string>84E19A0A1CE8D82300E3DFCD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>84E19A0A1CE8D82300E3DFCD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CarQuiz.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>84E19A0B1CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84E19A0A1CE8D82300E3DFCD</string>
-				<string>84E19A1E1CE8D82300E3DFCD</string>
-				<string>84E19A291CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A0C1CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>03E96F071CEB8AFA006AC050</string>
-				<string>84E19A0D1CE8D82300E3DFCD</string>
-				<string>84E19A0F1CE8D82300E3DFCD</string>
-				<string>840539111CEB69950056F345</string>
-				<string>840539151CEB69C90056F345</string>
-				<string>840539131CEB69A70056F345</string>
-				<string>84E19A111CE8D82300E3DFCD</string>
-				<string>84E19A141CE8D82300E3DFCD</string>
-				<string>84E19A161CE8D82300E3DFCD</string>
-				<string>84E19A191CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarQuiz</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A0D1CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A0E1CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A0D1CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A0F1CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A101CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A0F1CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A111CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84E19A121CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A121CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A131CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A111CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A141CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A151CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A141CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A161CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84E19A171CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A171CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A181CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A161CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A191CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A1A1CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84E19A231CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A1B1CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A1C1CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A1D1CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>84E19A351CE8D82300E3DFCD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>84E19A1A1CE8D82300E3DFCD</string>
-				<string>84E19A1B1CE8D82300E3DFCD</string>
-				<string>84E19A1C1CE8D82300E3DFCD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>84E19A201CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CarQuizTests</string>
-			<key>productName</key>
-			<string>CarQuizTests</string>
-			<key>productReference</key>
-			<string>84E19A1E1CE8D82300E3DFCD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>84E19A1E1CE8D82300E3DFCD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CarQuizTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>84E19A1F1CE8D82300E3DFCD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>84E19A021CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>84E19A091CE8D82300E3DFCD</string>
-			<key>remoteInfo</key>
-			<string>CarQuiz</string>
-		</dict>
-		<key>84E19A201CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>84E19A091CE8D82300E3DFCD</string>
-			<key>targetProxy</key>
-			<string>84E19A1F1CE8D82300E3DFCD</string>
-		</dict>
-		<key>84E19A211CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84E19A221CE8D82300E3DFCD</string>
-				<string>84E19A241CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarQuizTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A221CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CarQuizTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A231CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A221CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A241CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A251CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84E19A2E1CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A261CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A271CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84E19A281CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>84E19A381CE8D82300E3DFCD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>84E19A251CE8D82300E3DFCD</string>
-				<string>84E19A261CE8D82300E3DFCD</string>
-				<string>84E19A271CE8D82300E3DFCD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>84E19A2B1CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CarQuizUITests</string>
-			<key>productName</key>
-			<string>CarQuizUITests</string>
-			<key>productReference</key>
-			<string>84E19A291CE8D82300E3DFCD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>84E19A291CE8D82300E3DFCD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CarQuizUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>84E19A2A1CE8D82300E3DFCD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>84E19A021CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>84E19A091CE8D82300E3DFCD</string>
-			<key>remoteInfo</key>
-			<string>CarQuiz</string>
-		</dict>
-		<key>84E19A2B1CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>84E19A091CE8D82300E3DFCD</string>
-			<key>targetProxy</key>
-			<string>84E19A2A1CE8D82300E3DFCD</string>
-		</dict>
-		<key>84E19A2C1CE8D82300E3DFCD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84E19A2D1CE8D82300E3DFCD</string>
-				<string>84E19A2F1CE8D82300E3DFCD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CarQuizUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A2D1CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CarQuizUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A2E1CE8D82300E3DFCD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84E19A2D1CE8D82300E3DFCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84E19A2F1CE8D82300E3DFCD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E19A301CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84E19A311CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>84E19A321CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84E19A331CE8D82300E3DFCD</string>
-				<string>84E19A341CE8D82300E3DFCD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84E19A331CE8D82300E3DFCD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E8D86B370D9D24F96E93C661</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CarQuiz/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.litech.CarQuiz</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84E19A341CE8D82300E3DFCD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A1B813BD1112B946C80FFBD5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CarQuiz/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.litech.CarQuiz</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>84E19A351CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84E19A361CE8D82300E3DFCD</string>
-				<string>84E19A371CE8D82300E3DFCD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84E19A361CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CarQuizTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.litech.CarQuizTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CarQuiz.app/CarQuiz</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84E19A371CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CarQuizTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.litech.CarQuizTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CarQuiz.app/CarQuiz</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>84E19A381CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84E19A391CE8D82300E3DFCD</string>
-				<string>84E19A3A1CE8D82300E3DFCD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84E19A391CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>CarQuizUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.litech.CarQuizUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>CarQuiz</string>
-				<key>USES_XCTRUNNER</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84E19A3A1CE8D82300E3DFCD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>CarQuizUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.litech.CarQuizUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>CarQuiz</string>
-				<key>USES_XCTRUNNER</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A1B813BD1112B946C80FFBD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CarQuiz.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF55F5B867D92A19CBC1E199</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E8D86B370D9D24F96E93C661</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CarQuiz.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>84E19A021CE8D82300E3DFCD</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03ADA61F1CED348C004889AB /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 03ADA61E1CED348C004889AB /* data.csv */; };
+		03BABB461CED7EE90009A4F5 /* img03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03BABB431CED7EE90009A4F5 /* img03.jpg */; };
+		03BABB471CED7EE90009A4F5 /* img02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03BABB441CED7EE90009A4F5 /* img02.gif */; };
+		03BABB481CED7EE90009A4F5 /* img01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03BABB451CED7EE90009A4F5 /* img01.gif */; };
+		03E96F091CEB8B3A006AC050 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E96F081CEB8B3A006AC050 /* AnimationManager.swift */; };
+		03E96F0B1CEB8B5D006AC050 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E96F0A1CEB8B5D006AC050 /* ColorManager.swift */; };
+		03E96F0D1CEB8C04006AC050 /* GeneralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E96F0C1CEB8C04006AC050 /* GeneralManager.swift */; };
+		5A860B31003FB56C36DB1351 /* Pods_CarQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D45D38163DEAAE63748403D /* Pods_CarQuiz.framework */; };
+		840539121CEB69950056F345 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539111CEB69950056F345 /* QuestionViewController.swift */; };
+		840539141CEB69A70056F345 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539131CEB69A70056F345 /* ResultViewController.swift */; };
+		840539161CEB69C90056F345 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539151CEB69C90056F345 /* AnswerViewController.swift */; };
+		84E19A0E1CE8D82300E3DFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */; };
+		84E19A101CE8D82300E3DFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0F1CE8D82300E3DFCD /* ViewController.swift */; };
+		84E19A131CE8D82300E3DFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E19A111CE8D82300E3DFCD /* Main.storyboard */; };
+		84E19A151CE8D82300E3DFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E19A141CE8D82300E3DFCD /* Assets.xcassets */; };
+		84E19A181CE8D82300E3DFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E19A161CE8D82300E3DFCD /* LaunchScreen.storyboard */; };
+		84E19A231CE8D82300E3DFCD /* CarQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A221CE8D82300E3DFCD /* CarQuizTests.swift */; };
+		84E19A2E1CE8D82300E3DFCD /* CarQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A2D1CE8D82300E3DFCD /* CarQuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E19A1F1CE8D82300E3DFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E19A021CE8D82300E3DFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E19A091CE8D82300E3DFCD;
+			remoteInfo = CarQuiz;
+		};
+		84E19A2A1CE8D82300E3DFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E19A021CE8D82300E3DFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E19A091CE8D82300E3DFCD;
+			remoteInfo = CarQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ADA61E1CED348C004889AB /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		03BABB431CED7EE90009A4F5 /* img03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img03.jpg; sourceTree = "<group>"; };
+		03BABB441CED7EE90009A4F5 /* img02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img02.gif; sourceTree = "<group>"; };
+		03BABB451CED7EE90009A4F5 /* img01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img01.gif; sourceTree = "<group>"; };
+		03E96F081CEB8B3A006AC050 /* AnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
+		03E96F0A1CEB8B5D006AC050 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		03E96F0C1CEB8C04006AC050 /* GeneralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralManager.swift; sourceTree = "<group>"; };
+		0D45D38163DEAAE63748403D /* Pods_CarQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840539111CEB69950056F345 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		840539131CEB69A70056F345 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		840539151CEB69C90056F345 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		84E19A0A1CE8D82300E3DFCD /* CarQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E19A0F1CE8D82300E3DFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E19A121CE8D82300E3DFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E19A141CE8D82300E3DFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E19A171CE8D82300E3DFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E19A191CE8D82300E3DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E19A1E1CE8D82300E3DFCD /* CarQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E19A221CE8D82300E3DFCD /* CarQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarQuizTests.swift; sourceTree = "<group>"; };
+		84E19A241CE8D82300E3DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E19A291CE8D82300E3DFCD /* CarQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E19A2D1CE8D82300E3DFCD /* CarQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarQuizUITests.swift; sourceTree = "<group>"; };
+		84E19A2F1CE8D82300E3DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B813BD1112B946C80FFBD5 /* Pods-CarQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarQuiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		E8D86B370D9D24F96E93C661 /* Pods-CarQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E19A071CE8D82300E3DFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A860B31003FB56C36DB1351 /* Pods_CarQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E19A1B1CE8D82300E3DFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E19A261CE8D82300E3DFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BABB3F1CED7EBE0009A4F5 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				03BABB421CED7ED50009A4F5 /* UI */,
+				03BABB411CED7ED00009A4F5 /* Icon */,
+				03BABB401CED7EC90009A4F5 /* Image */,
+			);
+			name = Resourse;
+			sourceTree = "<group>";
+		};
+		03BABB401CED7EC90009A4F5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				03BABB431CED7EE90009A4F5 /* img03.jpg */,
+				03BABB441CED7EE90009A4F5 /* img02.gif */,
+				03BABB451CED7EE90009A4F5 /* img01.gif */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		03BABB411CED7ED00009A4F5 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		03BABB421CED7ED50009A4F5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		03E96F071CEB8AFA006AC050 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				03E96F0A1CEB8B5D006AC050 /* ColorManager.swift */,
+				03E96F0C1CEB8C04006AC050 /* GeneralManager.swift */,
+				03E96F081CEB8B3A006AC050 /* AnimationManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		1AD5A3E0A7BA8F2FA360F314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D45D38163DEAAE63748403D /* Pods_CarQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50874E8EA6A6BAA62E40EC79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D86B370D9D24F96E93C661 /* Pods-CarQuiz.debug.xcconfig */,
+				A1B813BD1112B946C80FFBD5 /* Pods-CarQuiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84E19A011CE8D82300E3DFCD = {
+			isa = PBXGroup;
+			children = (
+				84E19A0C1CE8D82300E3DFCD /* CarQuiz */,
+				84E19A211CE8D82300E3DFCD /* CarQuizTests */,
+				84E19A2C1CE8D82300E3DFCD /* CarQuizUITests */,
+				84E19A0B1CE8D82300E3DFCD /* Products */,
+				50874E8EA6A6BAA62E40EC79 /* Pods */,
+				1AD5A3E0A7BA8F2FA360F314 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E19A0B1CE8D82300E3DFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E19A0A1CE8D82300E3DFCD /* CarQuiz.app */,
+				84E19A1E1CE8D82300E3DFCD /* CarQuizTests.xctest */,
+				84E19A291CE8D82300E3DFCD /* CarQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E19A0C1CE8D82300E3DFCD /* CarQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				03BABB3F1CED7EBE0009A4F5 /* Resourse */,
+				03E96F071CEB8AFA006AC050 /* Manager */,
+				84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */,
+				84E19A0F1CE8D82300E3DFCD /* ViewController.swift */,
+				840539111CEB69950056F345 /* QuestionViewController.swift */,
+				840539151CEB69C90056F345 /* AnswerViewController.swift */,
+				840539131CEB69A70056F345 /* ResultViewController.swift */,
+				84E19A111CE8D82300E3DFCD /* Main.storyboard */,
+				03ADA61E1CED348C004889AB /* data.csv */,
+				84E19A141CE8D82300E3DFCD /* Assets.xcassets */,
+				84E19A161CE8D82300E3DFCD /* LaunchScreen.storyboard */,
+				84E19A191CE8D82300E3DFCD /* Info.plist */,
+			);
+			path = CarQuiz;
+			sourceTree = "<group>";
+		};
+		84E19A211CE8D82300E3DFCD /* CarQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E19A221CE8D82300E3DFCD /* CarQuizTests.swift */,
+				84E19A241CE8D82300E3DFCD /* Info.plist */,
+			);
+			path = CarQuizTests;
+			sourceTree = "<group>";
+		};
+		84E19A2C1CE8D82300E3DFCD /* CarQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E19A2D1CE8D82300E3DFCD /* CarQuizUITests.swift */,
+				84E19A2F1CE8D82300E3DFCD /* Info.plist */,
+			);
+			path = CarQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E19A091CE8D82300E3DFCD /* CarQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E19A321CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuiz" */;
+			buildPhases = (
+				4716B845E1D34003BF7F0B2C /* Check Pods Manifest.lock */,
+				84E19A061CE8D82300E3DFCD /* Sources */,
+				84E19A071CE8D82300E3DFCD /* Frameworks */,
+				84E19A081CE8D82300E3DFCD /* Resources */,
+				AF55F5B867D92A19CBC1E199 /* Embed Pods Frameworks */,
+				3BF899817D7DBBC9A3DD03F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarQuiz;
+			productName = CarQuiz;
+			productReference = 84E19A0A1CE8D82300E3DFCD /* CarQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E19A1D1CE8D82300E3DFCD /* CarQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E19A351CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuizTests" */;
+			buildPhases = (
+				84E19A1A1CE8D82300E3DFCD /* Sources */,
+				84E19A1B1CE8D82300E3DFCD /* Frameworks */,
+				84E19A1C1CE8D82300E3DFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E19A201CE8D82300E3DFCD /* PBXTargetDependency */,
+			);
+			name = CarQuizTests;
+			productName = CarQuizTests;
+			productReference = 84E19A1E1CE8D82300E3DFCD /* CarQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E19A281CE8D82300E3DFCD /* CarQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E19A381CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuizUITests" */;
+			buildPhases = (
+				84E19A251CE8D82300E3DFCD /* Sources */,
+				84E19A261CE8D82300E3DFCD /* Frameworks */,
+				84E19A271CE8D82300E3DFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E19A2B1CE8D82300E3DFCD /* PBXTargetDependency */,
+			);
+			name = CarQuizUITests;
+			productName = CarQuizUITests;
+			productReference = 84E19A291CE8D82300E3DFCD /* CarQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E19A021CE8D82300E3DFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "高田早記";
+				TargetAttributes = {
+					84E19A091CE8D82300E3DFCD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9VUNZHEC75;
+					};
+					84E19A1D1CE8D82300E3DFCD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9VUNZHEC75;
+						TestTargetID = 84E19A091CE8D82300E3DFCD;
+					};
+					84E19A281CE8D82300E3DFCD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9VUNZHEC75;
+						TestTargetID = 84E19A091CE8D82300E3DFCD;
+					};
+				};
+			};
+			buildConfigurationList = 84E19A051CE8D82300E3DFCD /* Build configuration list for PBXProject "CarQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E19A011CE8D82300E3DFCD;
+			productRefGroup = 84E19A0B1CE8D82300E3DFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E19A091CE8D82300E3DFCD /* CarQuiz */,
+				84E19A1D1CE8D82300E3DFCD /* CarQuizTests */,
+				84E19A281CE8D82300E3DFCD /* CarQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E19A081CE8D82300E3DFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ADA61F1CED348C004889AB /* data.csv in Resources */,
+				84E19A181CE8D82300E3DFCD /* LaunchScreen.storyboard in Resources */,
+				03BABB471CED7EE90009A4F5 /* img02.gif in Resources */,
+				84E19A151CE8D82300E3DFCD /* Assets.xcassets in Resources */,
+				03BABB481CED7EE90009A4F5 /* img01.gif in Resources */,
+				84E19A131CE8D82300E3DFCD /* Main.storyboard in Resources */,
+				03BABB461CED7EE90009A4F5 /* img03.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E19A1C1CE8D82300E3DFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E19A271CE8D82300E3DFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BF899817D7DBBC9A3DD03F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4716B845E1D34003BF7F0B2C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF55F5B867D92A19CBC1E199 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarQuiz/Pods-CarQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E19A061CE8D82300E3DFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E96F0B1CEB8B5D006AC050 /* ColorManager.swift in Sources */,
+				03E96F091CEB8B3A006AC050 /* AnimationManager.swift in Sources */,
+				84E19A101CE8D82300E3DFCD /* ViewController.swift in Sources */,
+				84E19A0E1CE8D82300E3DFCD /* AppDelegate.swift in Sources */,
+				840539161CEB69C90056F345 /* AnswerViewController.swift in Sources */,
+				03E96F0D1CEB8C04006AC050 /* GeneralManager.swift in Sources */,
+				840539121CEB69950056F345 /* QuestionViewController.swift in Sources */,
+				840539141CEB69A70056F345 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E19A1A1CE8D82300E3DFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E19A231CE8D82300E3DFCD /* CarQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E19A251CE8D82300E3DFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E19A2E1CE8D82300E3DFCD /* CarQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E19A201CE8D82300E3DFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E19A091CE8D82300E3DFCD /* CarQuiz */;
+			targetProxy = 84E19A1F1CE8D82300E3DFCD /* PBXContainerItemProxy */;
+		};
+		84E19A2B1CE8D82300E3DFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E19A091CE8D82300E3DFCD /* CarQuiz */;
+			targetProxy = 84E19A2A1CE8D82300E3DFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E19A111CE8D82300E3DFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E19A121CE8D82300E3DFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E19A161CE8D82300E3DFCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E19A171CE8D82300E3DFCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E19A301CE8D82300E3DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E19A311CE8D82300E3DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E19A331CE8D82300E3DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D86B370D9D24F96E93C661 /* Pods-CarQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.CarQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E19A341CE8D82300E3DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B813BD1112B946C80FFBD5 /* Pods-CarQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.CarQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84E19A361CE8D82300E3DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.CarQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarQuiz.app/CarQuiz";
+			};
+			name = Debug;
+		};
+		84E19A371CE8D82300E3DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.CarQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarQuiz.app/CarQuiz";
+			};
+			name = Release;
+		};
+		84E19A391CE8D82300E3DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.CarQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84E19A3A1CE8D82300E3DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.CarQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarQuiz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E19A051CE8D82300E3DFCD /* Build configuration list for PBXProject "CarQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E19A301CE8D82300E3DFCD /* Debug */,
+				84E19A311CE8D82300E3DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E19A321CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E19A331CE8D82300E3DFCD /* Debug */,
+				84E19A341CE8D82300E3DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E19A351CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E19A361CE8D82300E3DFCD /* Debug */,
+				84E19A371CE8D82300E3DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E19A381CE8D82300E3DFCD /* Build configuration list for PBXNativeTarget "CarQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E19A391CE8D82300E3DFCD /* Debug */,
+				84E19A3A1CE8D82300E3DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E19A021CE8D82300E3DFCD /* Project object */;
+}
