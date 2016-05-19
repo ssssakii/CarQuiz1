@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class ResultViewController: UIViewController {
 
@@ -14,11 +15,19 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // twitterButton生成
+        
     }
     
     /*****Twitter投稿*****/
-    func onPostTwitter(sender: AnyObject) {
-        
+    @IBAction func tapTwitter(sender: AnyObject) {
+        //Twitterダイアログを作る
+        var cv = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        //文字追加
+        cv.setInitialText("仮免試験のアプリでテストうけたよ！！")
+        //投稿ダイアログを表示する
+        self.presentViewController(cv, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
