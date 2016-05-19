@@ -15,6 +15,11 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    /*****Twitter投稿*****/
+    func onPostTwitter(sender: AnyObject) {
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
