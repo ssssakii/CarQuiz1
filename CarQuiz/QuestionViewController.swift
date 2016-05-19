@@ -25,31 +25,10 @@ class QuestionViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-
-        /*
-        //ユーザーデフォルトにアクセスする方法
-        let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        
-        //UserDefaultsに鍵を使って値を書き込む方法
-        //saveData.setObject(sender.tag, forKey: "colortag")
-        //UserDefaultsに鍵を使って値を取り出す方法
-        let color = saveData.objectForKey("colortag") as! Int
-        
-        switch color {
-        case 1:
-            self.view.backgroundColor = UIColor.yellowColor()
-        case 2:
-            self.view.backgroundColor = UIColor.greenColor()
-        case 3:
-            self.view.backgroundColor = UIColor.blueColor()
-        default:
-            print("error!")
-        }
-        */
         self.view.backgroundColor = GeneralManager.InitView()
         LoadCSV()        // ----- CSVファイル読み込み
-
-
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -67,7 +46,7 @@ class QuestionViewController: UIViewController {
         let infoLabel : UILabel  = UILabel(frame: CGRect(x: 10, y: 10, width: 240, height: 140))
         infoLabel.numberOfLines = 0
         infoLabel.textColor = UIColor.whiteColor()
-        infoLabel.text = "高田早記のメンター名はさきんちょである。"
+        infoLabel.text = csvData[nowIndex].infoText
         infoView.addSubview(infoLabel)
         
         let resultView = UIView()
@@ -82,21 +61,41 @@ class QuestionViewController: UIViewController {
         
         //○を選択
         if(sender.tag == 0){
-            resultLabel.text = "正解"
             resultView.addSubview(resultLabel)
             let view: [UIView] = [infoView,resultView]
-            alert.show(type: TKSWBackgroundType.BrightBlur, views: view)
+            if(AnswerCheck("0")){
+                resultLabel.text = "正解"
+                alert.show(type: TKSWBackgroundType.BrightBlur, views: view)
+            }else{
+                resultLabel.text = "不正解"
+                alert.show(type: TKSWBackgroundType.Blur, views: view)
+                
+            }
+            alert.didDissmissAllViews = {
+                self.nowIndex += 1
+                self.QuestionInit()
+            }
         }
         //xを選択
         if(sender.tag == 1){
-            resultLabel.text = "不正解"
             resultView.addSubview(resultLabel)
             let view: [UIView] = [infoView,resultView]
-            alert.show(type: TKSWBackgroundType.Blur, views: view)
+            if(AnswerCheck("1")){
+                resultLabel.text = "正解"
+                alert.show(type: TKSWBackgroundType.BrightBlur, views: view)
+            }else{
+                resultLabel.text = "不正解"
+                alert.show(type: TKSWBackgroundType.Blur, views: view)
+                
+            }
+            alert.didDissmissAllViews = {
+                self.nowIndex += 1
+                self.QuestionInit()
+            }
         }
     }
     
-
+    
     func QuestionInit(){
         self.questionText.text = self.csvData[self.nowIndex].questionText
         if self.csvData[self.nowIndex].imageName != "null"{
