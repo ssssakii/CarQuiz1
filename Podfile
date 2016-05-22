@@ -6,7 +6,7 @@ use_frameworks!
 target 'CarQuiz' do
 
 pod 'TKSwarmAlert'
-
+pod 'SDWebImage'
 end
 
 target 'CarQuizTests' do

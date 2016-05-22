@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8036ED8F3582F29D59DA97E3'
-               BlueprintName = 'Pods-CarQuiz'
+               BlueprintIdentifier = 'D95324BBA9345AD41E842604C24BF967'
+               BlueprintName = 'TKSwarmAlert'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_CarQuiz.framework'>
+               BuildableName = 'TKSwarmAlert.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

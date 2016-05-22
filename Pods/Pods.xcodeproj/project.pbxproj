@@ -1,1261 +1,1130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>02BBF839A46D763EC4590DB73E9BF5D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-CarQuiz-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>172143642C4472888454AE1D1A6ECF02</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D4163598D6ED937BD28D6F16EA286BF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18F12C32227487D953379E03E6C6EFBC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ABAFFD944F1041EF9561E1747069FA69</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-CarQuiz/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-CarQuiz/Pods-CarQuiz.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_CarQuiz</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>213B3BFA69D3F17AC535A8DEDBE37199</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-CarQuiz.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>213B9F87D7D177CCED3ECCC2ADC60939</key>
-		<dict>
-			<key>fileRef</key>
-			<string>525D8F3054B8C87D5CBEAD66858A9F6F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2654309DCF1A9BB4BC85CD9E1C17219C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CarQuiz-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
-				<string>FB45FFD90572718D82AB9092B750F0CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3410B07297A536F77F1234139F974B1B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CarQuiz-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36EF4A829B466DF2874612485B927C74</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C6200B8BFA2737BA7B03F7E7477720EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39DEDF77ECC827D57B3DAB151A5C18AB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>68BD229CFB2532073EBF1CAFC2822DE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>4244DCD0E0863707AD5324122656C92C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>18F12C32227487D953379E03E6C6EFBC</string>
-				<string>E1069295887A1F13E71E478C9E9AA76F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>45733C0A6C4C33880B5DDB2DE0570754</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>TKSwarmAlert</string>
-			<key>target</key>
-			<string>A6161336946317576D55A22CA6784FED</string>
-			<key>targetProxy</key>
-			<string>77F8110730A2CC8C183396D84C3DE482</string>
-		</dict>
-		<key>4C6C392C5775C7E9E448B6E5D13A9B31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TKSwarmAlert-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E7C55DED70C24693817E443DC711868</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>503848020A0E9C4CADCB8D283DD68762</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E19B9C08DB494BEDF059466E68E54126</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>525D8F3054B8C87D5CBEAD66858A9F6F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>DynamicBlurView.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/helper/DynamicBlurView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5712E1B2B05ACA6E5FDE1ACEFFDAF609</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5724BEC513F44E00F046347A97B57B4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5F1513BE816CBDFACB19F545781D9569</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5C326AB42DE5A0696DCCAE7BEC4A8553</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C7EBC1A4530103F7EA13BCBFFB6E05D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDE094E4E26C06860684D2DB6C78ACDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F1513BE816CBDFACB19F545781D9569</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3410B07297A536F77F1234139F974B1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>640FF8FC7EA9DE3D260855FEF535D72B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEB8D6DB2D20C530999EA769BA04B91D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>68BD229CFB2532073EBF1CAFC2822DE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>696E3E6268D3A0F5CD895E72B654D9A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C6C392C5775C7E9E448B6E5D13A9B31</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6B02970B59CEF8C629AD1DCB11C306A6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F8CDF3BCF56E0A45AF3FBC98C8E0AB72</string>
-				<string>7E6F7F01EB0E9E6E7FC3817B38E1D6FE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>778D1CA7AC1C87ECFFDDEDD3140DE566</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C6FC74CFC3BBED21743E0DE31F19A397</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>77F8110730A2CC8C183396D84C3DE482</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A6161336946317576D55A22CA6784FED</string>
-			<key>remoteInfo</key>
-			<string>TKSwarmAlert</string>
-		</dict>
-		<key>7951BCA29D1597F75DFDE990EC860EC8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-CarQuiz-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>172143642C4472888454AE1D1A6ECF02</string>
-				<string>D1B34C23435BC4AB8CF73197B4CADC57</string>
-				<string>36EF4A829B466DF2874612485B927C74</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E6F7F01EB0E9E6E7FC3817B38E1D6FE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B57EEAA5DB83AA23BA47A9E332184222</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TKSwarmAlert/TKSwarmAlert-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/TKSwarmAlert/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/TKSwarmAlert/TKSwarmAlert.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>TKSwarmAlert</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8043028F74A02699F24CB5454A36E3C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5712E1B2B05ACA6E5FDE1ACEFFDAF609</string>
-				<string>CF0C6BBBA96B40B2F0F43AE934282853</string>
-				<string>B57EEAA5DB83AA23BA47A9E332184222</string>
-				<string>D4DB41080BC5C0F41C71BBAE5CCC6E82</string>
-				<string>CBFCC5DB4FB36B3F7D80D6ED8B86225A</string>
-				<string>4C6C392C5775C7E9E448B6E5D13A9B31</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/TKSwarmAlert</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>938E238058400633FDA421A3C5BA3F82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CarQuiz.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0043C3FD3BC06E858EA81DC7FDF669</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CarQuiz-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A507FEFB06BDC4466E5A11235FF6694E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD0D2EE642C1FB7D380CC6D417E668D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6161336946317576D55A22CA6784FED</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6B02970B59CEF8C629AD1DCB11C306A6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CE2FCCD44FD70BE942490770387C0DE6</string>
-				<string>CEBBFA6ED311C727889EB90EE8C336CC</string>
-				<string>BFE79C06DB7E15093F0266213B8F2D16</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TKSwarmAlert</string>
-			<key>productName</key>
-			<string>TKSwarmAlert</string>
-			<key>productReference</key>
-			<string>F532C09601C1400BAD7C7DE1D9F87169</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>ABAFFD944F1041EF9561E1747069FA69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CarQuiz.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B57EEAA5DB83AA23BA47A9E332184222</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>TKSwarmAlert.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9145669A87BAE28FBB7B71683B352A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F530B28F9E7B7FE4C027A80AA978A2CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFE79C06DB7E15093F0266213B8F2D16</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>696E3E6268D3A0F5CD895E72B654D9A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C6200B8BFA2737BA7B03F7E7477720EC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E7C55DED70C24693817E443DC711868</string>
-				<string>213B3BFA69D3F17AC535A8DEDBE37199</string>
-				<string>02BBF839A46D763EC4590DB73E9BF5D3</string>
-				<string>7951BCA29D1597F75DFDE990EC860EC8</string>
-				<string>3410B07297A536F77F1234139F974B1B</string>
-				<string>D1C81AA56E66F090BE752693239EE680</string>
-				<string>9B0043C3FD3BC06E858EA81DC7FDF669</string>
-				<string>2654309DCF1A9BB4BC85CD9E1C17219C</string>
-				<string>ABAFFD944F1041EF9561E1747069FA69</string>
-				<string>938E238058400633FDA421A3C5BA3F82</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-CarQuiz</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-CarQuiz</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6FC74CFC3BBED21743E0DE31F19A397</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2654309DCF1A9BB4BC85CD9E1C17219C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C7C6E131E350D643FF2CEF95A08BCFB8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4244DCD0E0863707AD5324122656C92C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5724BEC513F44E00F046347A97B57B4B</string>
-				<string>39DEDF77ECC827D57B3DAB151A5C18AB</string>
-				<string>778D1CA7AC1C87ECFFDDEDD3140DE566</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>45733C0A6C4C33880B5DDB2DE0570754</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CarQuiz</string>
-			<key>productName</key>
-			<string>Pods-CarQuiz</string>
-			<key>productReference</key>
-			<string>CD48A345D9DD069A7CAE7C40F9A240D4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C976AE93F9D313A343192C97EDC111B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4E7DB1D944535991E785C780E9CB990</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CBFCC5DB4FB36B3F7D80D6ED8B86225A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TKSwarmAlert-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD48A345D9DD069A7CAE7C40F9A240D4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_CarQuiz.framework</string>
-			<key>path</key>
-			<string>Pods_CarQuiz.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CE2FCCD44FD70BE942490770387C0DE6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B9145669A87BAE28FBB7B71683B352A2</string>
-				<string>A507FEFB06BDC4466E5A11235FF6694E</string>
-				<string>213B9F87D7D177CCED3ECCC2ADC60939</string>
-				<string>5C7EBC1A4530103F7EA13BCBFFB6E05D</string>
-				<string>503848020A0E9C4CADCB8D283DD68762</string>
-				<string>F2D3B2370FCC4DA69414EB48D86A3DBC</string>
-				<string>640FF8FC7EA9DE3D260855FEF535D72B</string>
-				<string>C976AE93F9D313A343192C97EDC111B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CEB8D6DB2D20C530999EA769BA04B91D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>TKSwarmAlert.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/TKSwarmAlert.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEBBFA6ED311C727889EB90EE8C336CC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5C326AB42DE5A0696DCCAE7BEC4A8553</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CF0C6BBBA96B40B2F0F43AE934282853</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TKSwarmAlert.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1B34C23435BC4AB8CF73197B4CADC57</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CD48A345D9DD069A7CAE7C40F9A240D4</string>
-				<string>F532C09601C1400BAD7C7DE1D9F87169</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1C81AA56E66F090BE752693239EE680</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CarQuiz-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4163598D6ED937BD28D6F16EA286BF9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F530B28F9E7B7FE4C027A80AA978A2CE</string>
-				<string>FAD0D2EE642C1FB7D380CC6D417E668D</string>
-				<string>525D8F3054B8C87D5CBEAD66858A9F6F</string>
-				<string>EDE094E4E26C06860684D2DB6C78ACDC</string>
-				<string>E19B9C08DB494BEDF059466E68E54126</string>
-				<string>CEB8D6DB2D20C530999EA769BA04B91D</string>
-				<string>E4E7DB1D944535991E785C780E9CB990</string>
-				<string>8043028F74A02699F24CB5454A36E3C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TKSwarmAlert</string>
-			<key>path</key>
-			<string>TKSwarmAlert</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>D1B34C23435BC4AB8CF73197B4CADC57</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C7C6E131E350D643FF2CEF95A08BCFB8</string>
-				<string>A6161336946317576D55A22CA6784FED</string>
-			</array>
-		</dict>
-		<key>D4DB41080BC5C0F41C71BBAE5CCC6E82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TKSwarmAlert-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1069295887A1F13E71E478C9E9AA76F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>938E238058400633FDA421A3C5BA3F82</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-CarQuiz/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-CarQuiz/Pods-CarQuiz.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_CarQuiz</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E19B9C08DB494BEDF059466E68E54126</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>NSTimerEx.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/helper/NSTimerEx.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4E7DB1D944535991E785C780E9CB990</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>TKSWBackgroundView.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/TKSWBackgroundView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDE094E4E26C06860684D2DB6C78ACDC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>FallingAnimationView.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/FallingAnimationView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2D3B2370FCC4DA69414EB48D86A3DBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4DB41080BC5C0F41C71BBAE5CCC6E82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F530B28F9E7B7FE4C027A80AA978A2CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>BrightView.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/BrightView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F532C09601C1400BAD7C7DE1D9F87169</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>TKSwarmAlert.framework</string>
-			<key>path</key>
-			<string>TKSwarmAlert.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F8CDF3BCF56E0A45AF3FBC98C8E0AB72</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B57EEAA5DB83AA23BA47A9E332184222</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TKSwarmAlert/TKSwarmAlert-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/TKSwarmAlert/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/TKSwarmAlert/TKSwarmAlert.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>TKSwarmAlert</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FAD0D2EE642C1FB7D380CC6D417E668D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>CGRectEx.swift</string>
-			<key>path</key>
-			<string>TKSwarmAlert/Classes/helper/CGRectEx.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB45FFD90572718D82AB9092B750F0CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000BCBDA9CD0E01043A00D31AECBAC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		00E2E271CB361968284661E71F709CBD /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = FF16C5F98B8E7A215E537412176A3D0F /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		060EF3D5FC68387C9165B2C45AB4657D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		0847193FFD443EB3DBC24F923F213B59 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5691751B999C3AE151FD28F16EF1C4EC /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B49C328D74D52778AB3EAE51A1B4349 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B5BE06883AC19D752DAA166DE1AEB /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13D2B6DC7015FC02B20925A47DF2EF71 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C248D2557BA3CD56D05DE456101D94D1 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D23234AE29D85E1341C5137E6D2440 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 383F0ACD96ABE056E20E47C4B3E9F8A4 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F134CCF8FBE1E87DC4DDBC0483C20B5 /* TKSwarmAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8128020182192501B4D530824A348D9B /* TKSwarmAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F292273446DCC4904252B23B5B05CCA /* TKSWBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190ECB72C441EC9D6623E9E3ADF5EA49 /* TKSWBackgroundView.swift */; };
+		1F65E1932F0AA05D98E9C9688ABBF973 /* Pods-CarQuizTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9A281CA5A0101EA6FB13CD7AFA435 /* Pods-CarQuizTests-dummy.m */; };
+		22757EFF1136C92015C5AC6E0ADD874F /* Pods-CarQuizUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5828CF52D0E98CBE08F5EAA3C105B09E /* Pods-CarQuizUITests-dummy.m */; };
+		22C625A853113BB81D74A130665D78B8 /* Pods-CarQuizTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB079771D63DC2646D8DF0EABEEC729 /* Pods-CarQuizTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257DE7E44DC41F82F0A433C951B21948 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746DB9F00D33986304B495CB27B34F4 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B8F05B84EC2CAC772D9797FE0EC3DE8 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2B3D42B7BD9219D5F9994123A63392 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304BCF1FA4642CBFB0E0A57AB4842641 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5E81897112DA739DEB70CEDDC4249 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		314F4CD7D997E0799C8575D5DBF7C809 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEA45B8A80C62BBF68D694F6A558435 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39AF2796441499986043CBF1BE0691C3 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1C41C0251116899CFAA14F893661D /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		39D446E7D92BC2BDC9A99FCF672A8FE8 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04BE63CC1ACC02AC842E5E5F6D88A5 /* CGRectEx.swift */; };
+		3BDEF2CE87179C8418C95B29AB2ABFEA /* Pods-CarQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A44C84CA99F22A071D5E08ADA65421 /* Pods-CarQuiz-dummy.m */; };
+		3FCE4D476EB6BE9D3A22F307BBFFA4F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		402EC9506587F100F6ED6384BA775EC3 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC96C25D2444FE46A559CE17D78DD3 /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		435020067E64BFC919FFD5F3CA5B346B /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCCA629E3CB34001230ED98CFC536BC /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA07C346F10875823C69ECC0FA26039 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CACB34AFCF3051FFCC69471F484ED3 /* ImageIO.framework */; };
+		566221ED26D0E937D4BAE3101BB49827 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9150E9E6420E052872E7DB4BE3E1710F /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		56FA9A9FC32FCD72B7638E6D1BCEB9E9 /* Pods-CarQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B1F41AA6B48A96616814497BE9316E /* Pods-CarQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F56C095F264E7EF9F12DB1236D976C /* TKSwarmAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34294554D1B6C6DB83D32978BA6C9EBC /* TKSwarmAlert-dummy.m */; };
+		724B6C5D82D86425C78D5E7C5D8A5276 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D15F18C690C6DFBE66F85F1745ED2850 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84DEA496E318DEA6BB0C1D0090463629 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF206B331B32035AFF1E9D006716141 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85A51AF7167683C8D762FEE0FD171CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		862E76221658CE8BD424B297F3B7356D /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 157781EBD647E92E05C5243ABE04752B /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C3FE0433A89B24B69E6C13B15754302 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF9359C09CA23B199C06BFBD392E44E /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D47981EEADBEF7341BE2C0B0F77784 /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F39E9F63FE30AB9C12FDAFA1BBE99 /* NSTimerEx.swift */; };
+		9838047A6963D62C2C118955C3670DB0 /* Pods-CarQuizUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC3EF5DE74C221B5B9C07044B5E4859 /* Pods-CarQuizUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9952357E19E6D47E8742DC946E51DD4B /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C349F6691EE75D05E14650BF263ED1 /* DynamicBlurView.swift */; };
+		9B938C012D82E7BCAB1A21CF1262AD71 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8529C352AD24E4C559BE21B2990D36 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47AC684EDC9AE19E23EF79B73849BA4 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 832BBE9E57513D200F097EAC181DEE3F /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C6DFBC0261D2889F8A14288A289074 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 211056A3B79A5EDD5BA221D18C598B4D /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B56A0CF466C606CE6AFDCE2D08A2D6C9 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 697C10D9A93BE4E37BE4BC3B714FEDD8 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D87181342582902314CD30033C0296 /* FallingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB506410FE6A9D908EEAAAD0348A4B72 /* FallingAnimationView.swift */; };
+		BD57A6E5DABDFE5E168DDB0A7B8AF916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */; };
+		C485BADEA84DF7F6FE1B05ECAE3D352A /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 44739E18AC76E017A595C842523E807B /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8A272A0BCB697522C5806BC5ECE44E6 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FA54F823EE1365D9A6E1808AA4F4EC /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CAE5042E4DA8FB837E110AE67ED06DFC /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 939705170531D3C62095DC0B7A7F200D /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CBAC9F7E2B1D06D2C3A5D3EEA98DDFB6 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 623C6F00189CD6BE6D0A8BC204599D9D /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC023193CF2EC0F0DBA2E74BADD6E946 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D392EB4994D6D0D413764C3DC1ECDB6 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF156FB77B3B4FD54F837A22F0CD6EE8 /* BrightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE58C36C24E182836510CB1187E304DE /* BrightView.swift */; };
+		DB9843F4B55329A9104BD3F001C3D022 /* TKSwarmAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B196DC6C437EE399C83C3C4B864F13F /* TKSwarmAlert.swift */; };
+		E132E0232BE243B49FFA44C69EFA0178 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A8036D3C14D651DA584EF7B7D19D986B /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2EAC2058C758D144B95818B7587233 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FF888EF4EB7F4426B58F6E4D409438 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EAC7F6C2AB0DBB8FFE459FC461E044E3 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D16AC38B6609FE64BC8617299A74C38 /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F26F5EF0B13112BA5E525C7411852563 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D411F8C5A195265D60AA196B76BB951E /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7D5A42E4A23FFADB7BAAAE2EB8E79B /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1867A976A617EC25174270A898F914 /* SDWebImage-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188505DB9B5994764411B7888BCA4FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95324BBA9345AD41E842604C24BF967;
+			remoteInfo = TKSwarmAlert;
+		};
+		E82B3D1AA18C4D2A3C45D8C874373C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BE3118AA33263713B92C4F63ECD369;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FA54F823EE1365D9A6E1808AA4F4EC /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		0746DB9F00D33986304B495CB27B34F4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		07B5E81897112DA739DEB70CEDDC4249 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		13FC411DB09276D4A6DCB70F314D8244 /* Pods-CarQuizUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarQuizUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		157781EBD647E92E05C5243ABE04752B /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		158500C9DBFCA47B4A035A04B73E612C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		190ECB72C441EC9D6623E9E3ADF5EA49 /* TKSWBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TKSWBackgroundView.swift; path = TKSwarmAlert/Classes/TKSWBackgroundView.swift; sourceTree = "<group>"; };
+		19FE701DB5D4B05B86BF55C0DACE0DC9 /* Pods-CarQuizTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CarQuizTests.modulemap"; sourceTree = "<group>"; };
+		1EB079771D63DC2646D8DF0EABEEC729 /* Pods-CarQuizTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarQuizTests-umbrella.h"; sourceTree = "<group>"; };
+		1FEA45B8A80C62BBF68D694F6A558435 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		211056A3B79A5EDD5BA221D18C598B4D /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		214A1E9E1D83BE421D5762F67D938B8E /* Pods-CarQuizTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarQuizTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		215E71C9D88DA6DA027E4D8C1EF316E2 /* Pods-CarQuizUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarQuizUITests-resources.sh"; sourceTree = "<group>"; };
+		2AF206B331B32035AFF1E9D006716141 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		2BD7C02CBBAC10F5E6C49FABA627397E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E69A1E3DF744BF089D1F12FB2B4CB13 /* TKSwarmAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSwarmAlert.xcconfig; sourceTree = "<group>"; };
+		2E9D4687CA05CB828212C2E8D66EF010 /* Pods-CarQuizUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarQuizUITests-frameworks.sh"; sourceTree = "<group>"; };
+		34294554D1B6C6DB83D32978BA6C9EBC /* TKSwarmAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSwarmAlert-dummy.m"; sourceTree = "<group>"; };
+		36BD0EBFAF47122A2A06386558AA25E2 /* Pods_CarQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E7698939A791E91B9ECD4B13DAF884 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383F0ACD96ABE056E20E47C4B3E9F8A4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		3A930D3A04AB54231D6E30394BB70D11 /* Pods-CarQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC3EF5DE74C221B5B9C07044B5E4859 /* Pods-CarQuizUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarQuizUITests-umbrella.h"; sourceTree = "<group>"; };
+		3D04BE63CC1ACC02AC842E5E5F6D88A5 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = TKSwarmAlert/Classes/helper/CGRectEx.swift; sourceTree = "<group>"; };
+		3FF9359C09CA23B199C06BFBD392E44E /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		43AB28E79C66AF82D041E8C15BEA2971 /* Pods-CarQuizTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarQuizTests-resources.sh"; sourceTree = "<group>"; };
+		44739E18AC76E017A595C842523E807B /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		45A56A1E00D242926BB09C66074EA51A /* Pods-CarQuiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CarQuiz.modulemap"; sourceTree = "<group>"; };
+		46132038BB12BD11385423D10CBC84D4 /* Pods-CarQuiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarQuiz-resources.sh"; sourceTree = "<group>"; };
+		4E7E8875B6F4941B717B66D3BAF2D8C7 /* Pods-CarQuiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarQuiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		54C349F6691EE75D05E14650BF263ED1 /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = TKSwarmAlert/Classes/helper/DynamicBlurView.swift; sourceTree = "<group>"; };
+		5691751B999C3AE151FD28F16EF1C4EC /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		5828CF52D0E98CBE08F5EAA3C105B09E /* Pods-CarQuizUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarQuizUITests-dummy.m"; sourceTree = "<group>"; };
+		5B196DC6C437EE399C83C3C4B864F13F /* TKSwarmAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TKSwarmAlert.swift; path = TKSwarmAlert/Classes/TKSwarmAlert.swift; sourceTree = "<group>"; };
+		623C6F00189CD6BE6D0A8BC204599D9D /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		697C10D9A93BE4E37BE4BC3B714FEDD8 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		6D1EE99A67A9349ED012A335EA4406D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E038D5531D694A22D047E33898E15F2 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		7160158ED9CF12C90E5CF7DD9E1F8B2F /* Pods-CarQuizUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CarQuizUITests.modulemap"; sourceTree = "<group>"; };
+		71E1C41C0251116899CFAA14F893661D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CA3B98247C7D2BA1E1E1F1E819F478E /* Pods_CarQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D392EB4994D6D0D413764C3DC1ECDB6 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		8128020182192501B4D530824A348D9B /* TKSwarmAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSwarmAlert-umbrella.h"; sourceTree = "<group>"; };
+		81D6DC18D2C4FD48BADF69C8B5E41294 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F468AF47D534F4DD09CDEFF4172ABB /* Pods-CarQuiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarQuiz-frameworks.sh"; sourceTree = "<group>"; };
+		830B5BE06883AC19D752DAA166DE1AEB /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		832BBE9E57513D200F097EAC181DEE3F /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		843598031725A8E64E5BDB0A34090CF6 /* Pods_CarQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AC96C25D2444FE46A559CE17D78DD3 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		9150E9E6420E052872E7DB4BE3E1710F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		91CACB34AFCF3051FFCC69471F484ED3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		939705170531D3C62095DC0B7A7F200D /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974C361AE0C5159E7812C7417A407A9E /* TKSwarmAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKSwarmAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D16AC38B6609FE64BC8617299A74C38 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		A063375C540DD309D20973918E136EBC /* Pods-CarQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		A8036D3C14D651DA584EF7B7D19D986B /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		ABEDAB651534E628D0F561782444235E /* Pods-CarQuizTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarQuizTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD42B812B795052E297F5297D3D98D34 /* Pods-CarQuiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarQuiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE1867A976A617EC25174270A898F914 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		B101086BEF582CEBFE99281A2D8C4F9F /* Pods-CarQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FF888EF4EB7F4426B58F6E4D409438 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		BAC9A281CA5A0101EA6FB13CD7AFA435 /* Pods-CarQuizTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarQuizTests-dummy.m"; sourceTree = "<group>"; };
+		BD0F510232DA5995F06E2ED8863C8C97 /* Pods-CarQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1B1F41AA6B48A96616814497BE9316E /* Pods-CarQuiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarQuiz-umbrella.h"; sourceTree = "<group>"; };
+		C248D2557BA3CD56D05DE456101D94D1 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		CB2B3D42B7BD9219D5F9994123A63392 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		CB506410FE6A9D908EEAAAD0348A4B72 /* FallingAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FallingAnimationView.swift; path = TKSwarmAlert/Classes/FallingAnimationView.swift; sourceTree = "<group>"; };
+		CDCA966336DA26BAD50BAD58F0BD1587 /* TKSwarmAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSwarmAlert-prefix.pch"; sourceTree = "<group>"; };
+		CF4AF88CFB88E90A0159EAD462B0209D /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		D15F18C690C6DFBE66F85F1745ED2850 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		D291E081815198FCAB82B144F79455E4 /* Pods-CarQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		D411F8C5A195265D60AA196B76BB951E /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		D66694E215B038B42801283A14FB08DA /* Pods-CarQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD8FF5E6F52C1CE55BAE6B578C8F4676 /* Pods-CarQuizUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarQuizUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE1F39E9F63FE30AB9C12FDAFA1BBE99 /* NSTimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTimerEx.swift; path = TKSwarmAlert/Classes/helper/NSTimerEx.swift; sourceTree = "<group>"; };
+		DF8529C352AD24E4C559BE21B2990D36 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		DFCCA629E3CB34001230ED98CFC536BC /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		E8A44C84CA99F22A071D5E08ADA65421 /* Pods-CarQuiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarQuiz-dummy.m"; sourceTree = "<group>"; };
+		EE58C36C24E182836510CB1187E304DE /* BrightView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrightView.swift; path = TKSwarmAlert/Classes/BrightView.swift; sourceTree = "<group>"; };
+		F6AB7B857E4C354C1B9B7FF7CDF6730A /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		F70BB5D1B96A94404261D20E98D00202 /* TKSwarmAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TKSwarmAlert.modulemap; sourceTree = "<group>"; };
+		F7795690874B4543DA332DA0B189A3C8 /* Pods-CarQuizTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarQuizTests-frameworks.sh"; sourceTree = "<group>"; };
+		FCAA9FC92D80EDCDA21C938D65C63543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF16C5F98B8E7A215E537412176A3D0F /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E353F812EF525D46D0783272F66ED98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCE4D476EB6BE9D3A22F307BBFFA4F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BE9A4B15A8A3879A4899E48F0162C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000BCBDA9CD0E01043A00D31AECBAC92 /* Foundation.framework in Frameworks */,
+				4DA07C346F10875823C69ECC0FA26039 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05976101AFAFE5177460093A98A02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060EF3D5FC68387C9165B2C45AB4657D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB81D39457CFE9B4864163571A4FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD57A6E5DABDFE5E168DDB0A7B8AF916 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18CAAD2AE057AD356580274FC9FEDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A51AF7167683C8D762FEE0FD171CB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E416DC2CFDB54EB91C06C078F34E3C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79C43EBA6705504C4AE1C53A721903E0 /* Foundation.framework */,
+				91CACB34AFCF3051FFCC69471F484ED3 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1CE0F7952CF72B64161DC918BB83BC55 /* Pods-CarQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7C02CBBAC10F5E6C49FABA627397E /* Info.plist */,
+				19FE701DB5D4B05B86BF55C0DACE0DC9 /* Pods-CarQuizTests.modulemap */,
+				214A1E9E1D83BE421D5762F67D938B8E /* Pods-CarQuizTests-acknowledgements.markdown */,
+				ABEDAB651534E628D0F561782444235E /* Pods-CarQuizTests-acknowledgements.plist */,
+				BAC9A281CA5A0101EA6FB13CD7AFA435 /* Pods-CarQuizTests-dummy.m */,
+				F7795690874B4543DA332DA0B189A3C8 /* Pods-CarQuizTests-frameworks.sh */,
+				43AB28E79C66AF82D041E8C15BEA2971 /* Pods-CarQuizTests-resources.sh */,
+				1EB079771D63DC2646D8DF0EABEEC729 /* Pods-CarQuizTests-umbrella.h */,
+				B101086BEF582CEBFE99281A2D8C4F9F /* Pods-CarQuizTests.debug.xcconfig */,
+				D66694E215B038B42801283A14FB08DA /* Pods-CarQuizTests.release.xcconfig */,
+			);
+			name = "Pods-CarQuizTests";
+			path = "Target Support Files/Pods-CarQuizTests";
+			sourceTree = "<group>";
+		};
+		3AB3943FAEE36A34B6C113622CE08357 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E7698939A791E91B9ECD4B13DAF884 /* Info.plist */,
+				CF4AF88CFB88E90A0159EAD462B0209D /* SDWebImage.modulemap */,
+				F6AB7B857E4C354C1B9B7FF7CDF6730A /* SDWebImage.xcconfig */,
+				AE1867A976A617EC25174270A898F914 /* SDWebImage-dummy.m */,
+				6E038D5531D694A22D047E33898E15F2 /* SDWebImage-prefix.pch */,
+				697C10D9A93BE4E37BE4BC3B714FEDD8 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		3BFF5E39077CF4FDD7272C0F210D4BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E26202CF4EC5F62B3334119983BA4856 /* SDWebImage */,
+				EBDA98641BAA2FE3ADF554927C3A6705 /* TKSwarmAlert */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E416DC2CFDB54EB91C06C078F34E3C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456A98BEB268FB52E7103BC2189ACA8B /* Pods-CarQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA9FC92D80EDCDA21C938D65C63543 /* Info.plist */,
+				7160158ED9CF12C90E5CF7DD9E1F8B2F /* Pods-CarQuizUITests.modulemap */,
+				13FC411DB09276D4A6DCB70F314D8244 /* Pods-CarQuizUITests-acknowledgements.markdown */,
+				DD8FF5E6F52C1CE55BAE6B578C8F4676 /* Pods-CarQuizUITests-acknowledgements.plist */,
+				5828CF52D0E98CBE08F5EAA3C105B09E /* Pods-CarQuizUITests-dummy.m */,
+				2E9D4687CA05CB828212C2E8D66EF010 /* Pods-CarQuizUITests-frameworks.sh */,
+				215E71C9D88DA6DA027E4D8C1EF316E2 /* Pods-CarQuizUITests-resources.sh */,
+				3BC3EF5DE74C221B5B9C07044B5E4859 /* Pods-CarQuizUITests-umbrella.h */,
+				3A930D3A04AB54231D6E30394BB70D11 /* Pods-CarQuizUITests.debug.xcconfig */,
+				BD0F510232DA5995F06E2ED8863C8C97 /* Pods-CarQuizUITests.release.xcconfig */,
+			);
+			name = "Pods-CarQuizUITests";
+			path = "Target Support Files/Pods-CarQuizUITests";
+			sourceTree = "<group>";
+		};
+		7829C1383A93D43DF2268586DD81FC1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D6DC18D2C4FD48BADF69C8B5E41294 /* Info.plist */,
+				F70BB5D1B96A94404261D20E98D00202 /* TKSwarmAlert.modulemap */,
+				2E69A1E3DF744BF089D1F12FB2B4CB13 /* TKSwarmAlert.xcconfig */,
+				34294554D1B6C6DB83D32978BA6C9EBC /* TKSwarmAlert-dummy.m */,
+				CDCA966336DA26BAD50BAD58F0BD1587 /* TKSwarmAlert-prefix.pch */,
+				8128020182192501B4D530824A348D9B /* TKSwarmAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKSwarmAlert";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3BFF5E39077CF4FDD7272C0F210D4BC1 /* Pods */,
+				DBCF7BC0D77D4D27A769997F0C6CAC20 /* Products */,
+				C9F403351EC66B365E43AD6368C8EAB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C65B2F690BCD226EFB5B6E032692E0 /* Pods-CarQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				6D1EE99A67A9349ED012A335EA4406D1 /* Info.plist */,
+				45A56A1E00D242926BB09C66074EA51A /* Pods-CarQuiz.modulemap */,
+				AD42B812B795052E297F5297D3D98D34 /* Pods-CarQuiz-acknowledgements.markdown */,
+				4E7E8875B6F4941B717B66D3BAF2D8C7 /* Pods-CarQuiz-acknowledgements.plist */,
+				E8A44C84CA99F22A071D5E08ADA65421 /* Pods-CarQuiz-dummy.m */,
+				82F468AF47D534F4DD09CDEFF4172ABB /* Pods-CarQuiz-frameworks.sh */,
+				46132038BB12BD11385423D10CBC84D4 /* Pods-CarQuiz-resources.sh */,
+				C1B1F41AA6B48A96616814497BE9316E /* Pods-CarQuiz-umbrella.h */,
+				A063375C540DD309D20973918E136EBC /* Pods-CarQuiz.debug.xcconfig */,
+				D291E081815198FCAB82B144F79455E4 /* Pods-CarQuiz.release.xcconfig */,
+			);
+			name = "Pods-CarQuiz";
+			path = "Target Support Files/Pods-CarQuiz";
+			sourceTree = "<group>";
+		};
+		C9F403351EC66B365E43AD6368C8EAB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C65B2F690BCD226EFB5B6E032692E0 /* Pods-CarQuiz */,
+				1CE0F7952CF72B64161DC918BB83BC55 /* Pods-CarQuizTests */,
+				456A98BEB268FB52E7103BC2189ACA8B /* Pods-CarQuizUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8F068B2C5F401FF08ED3CAA0703DAA0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7D392EB4994D6D0D413764C3DC1ECDB6 /* NSData+ImageContentType.h */,
+				9D16AC38B6609FE64BC8617299A74C38 /* NSData+ImageContentType.m */,
+				3FF9359C09CA23B199C06BFBD392E44E /* SDImageCache.h */,
+				939705170531D3C62095DC0B7A7F200D /* SDImageCache.m */,
+				383F0ACD96ABE056E20E47C4B3E9F8A4 /* SDWebImageCompat.h */,
+				44739E18AC76E017A595C842523E807B /* SDWebImageCompat.m */,
+				CB2B3D42B7BD9219D5F9994123A63392 /* SDWebImageDecoder.h */,
+				07B5E81897112DA739DEB70CEDDC4249 /* SDWebImageDecoder.m */,
+				FF16C5F98B8E7A215E537412176A3D0F /* SDWebImageDownloader.h */,
+				71E1C41C0251116899CFAA14F893661D /* SDWebImageDownloader.m */,
+				832BBE9E57513D200F097EAC181DEE3F /* SDWebImageDownloaderOperation.h */,
+				84AC96C25D2444FE46A559CE17D78DD3 /* SDWebImageDownloaderOperation.m */,
+				C248D2557BA3CD56D05DE456101D94D1 /* SDWebImageManager.h */,
+				830B5BE06883AC19D752DAA166DE1AEB /* SDWebImageManager.m */,
+				D15F18C690C6DFBE66F85F1745ED2850 /* SDWebImageOperation.h */,
+				DF8529C352AD24E4C559BE21B2990D36 /* SDWebImagePrefetcher.h */,
+				157781EBD647E92E05C5243ABE04752B /* SDWebImagePrefetcher.m */,
+				A8036D3C14D651DA584EF7B7D19D986B /* UIButton+WebCache.h */,
+				0746DB9F00D33986304B495CB27B34F4 /* UIButton+WebCache.m */,
+				623C6F00189CD6BE6D0A8BC204599D9D /* UIImage+GIF.h */,
+				2AF206B331B32035AFF1E9D006716141 /* UIImage+GIF.m */,
+				1FEA45B8A80C62BBF68D694F6A558435 /* UIImage+MultiFormat.h */,
+				06FA54F823EE1365D9A6E1808AA4F4EC /* UIImage+MultiFormat.m */,
+				5691751B999C3AE151FD28F16EF1C4EC /* UIImageView+HighlightedWebCache.h */,
+				B6FF888EF4EB7F4426B58F6E4D409438 /* UIImageView+HighlightedWebCache.m */,
+				D411F8C5A195265D60AA196B76BB951E /* UIImageView+WebCache.h */,
+				9150E9E6420E052872E7DB4BE3E1710F /* UIImageView+WebCache.m */,
+				DFCCA629E3CB34001230ED98CFC536BC /* UIView+WebCacheOperation.h */,
+				211056A3B79A5EDD5BA221D18C598B4D /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DBCF7BC0D77D4D27A769997F0C6CAC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA3B98247C7D2BA1E1E1F1E819F478E /* Pods_CarQuiz.framework */,
+				843598031725A8E64E5BDB0A34090CF6 /* Pods_CarQuizTests.framework */,
+				36BD0EBFAF47122A2A06386558AA25E2 /* Pods_CarQuizUITests.framework */,
+				158500C9DBFCA47B4A035A04B73E612C /* SDWebImage.framework */,
+				974C361AE0C5159E7812C7417A407A9E /* TKSwarmAlert.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26202CF4EC5F62B3334119983BA4856 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				D8F068B2C5F401FF08ED3CAA0703DAA0 /* Core */,
+				3AB3943FAEE36A34B6C113622CE08357 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		EBDA98641BAA2FE3ADF554927C3A6705 /* TKSwarmAlert */ = {
+			isa = PBXGroup;
+			children = (
+				EE58C36C24E182836510CB1187E304DE /* BrightView.swift */,
+				3D04BE63CC1ACC02AC842E5E5F6D88A5 /* CGRectEx.swift */,
+				54C349F6691EE75D05E14650BF263ED1 /* DynamicBlurView.swift */,
+				CB506410FE6A9D908EEAAAD0348A4B72 /* FallingAnimationView.swift */,
+				DE1F39E9F63FE30AB9C12FDAFA1BBE99 /* NSTimerEx.swift */,
+				5B196DC6C437EE399C83C3C4B864F13F /* TKSwarmAlert.swift */,
+				190ECB72C441EC9D6623E9E3ADF5EA49 /* TKSWBackgroundView.swift */,
+				7829C1383A93D43DF2268586DD81FC1A /* Support Files */,
+			);
+			path = TKSwarmAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34379674C8EC1F652403815CFE89D435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC023193CF2EC0F0DBA2E74BADD6E946 /* NSData+ImageContentType.h in Headers */,
+				8C3FE0433A89B24B69E6C13B15754302 /* SDImageCache.h in Headers */,
+				B56A0CF466C606CE6AFDCE2D08A2D6C9 /* SDWebImage-umbrella.h in Headers */,
+				17D23234AE29D85E1341C5137E6D2440 /* SDWebImageCompat.h in Headers */,
+				2B8F05B84EC2CAC772D9797FE0EC3DE8 /* SDWebImageDecoder.h in Headers */,
+				00E2E271CB361968284661E71F709CBD /* SDWebImageDownloader.h in Headers */,
+				B47AC684EDC9AE19E23EF79B73849BA4 /* SDWebImageDownloaderOperation.h in Headers */,
+				13D2B6DC7015FC02B20925A47DF2EF71 /* SDWebImageManager.h in Headers */,
+				724B6C5D82D86425C78D5E7C5D8A5276 /* SDWebImageOperation.h in Headers */,
+				9B938C012D82E7BCAB1A21CF1262AD71 /* SDWebImagePrefetcher.h in Headers */,
+				E132E0232BE243B49FFA44C69EFA0178 /* UIButton+WebCache.h in Headers */,
+				CBAC9F7E2B1D06D2C3A5D3EEA98DDFB6 /* UIImage+GIF.h in Headers */,
+				314F4CD7D997E0799C8575D5DBF7C809 /* UIImage+MultiFormat.h in Headers */,
+				0847193FFD443EB3DBC24F923F213B59 /* UIImageView+HighlightedWebCache.h in Headers */,
+				F26F5EF0B13112BA5E525C7411852563 /* UIImageView+WebCache.h in Headers */,
+				435020067E64BFC919FFD5F3CA5B346B /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40BFAC9570107C339C72F350F03E92C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C625A853113BB81D74A130665D78B8 /* Pods-CarQuizTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13C2FFCB3B5D358D8FB4B834BB81EF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FA9A9FC32FCD72B7638E6D1BCEB9E9 /* Pods-CarQuiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E311C204B1AB631586889789C65806AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9838047A6963D62C2C118955C3670DB0 /* Pods-CarQuizUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1E25D76F7E4F6C1D608CB6C16AF1D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F134CCF8FBE1E87DC4DDBC0483C20B5 /* TKSwarmAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F71E44486F894C5050B759EF21A2569 /* Pods-CarQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6385A803B992A844B3F7A33B3DBD427A /* Build configuration list for PBXNativeTarget "Pods-CarQuiz" */;
+			buildPhases = (
+				7B70C2E07B05DF049BB4025B54FB9551 /* Sources */,
+				BA05976101AFAFE5177460093A98A02F /* Frameworks */,
+				C13C2FFCB3B5D358D8FB4B834BB81EF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A54A7797D629577994124EFD127C27 /* PBXTargetDependency */,
+				2F6B26C0CD9D8304EB44B34EEF6B5283 /* PBXTargetDependency */,
+			);
+			name = "Pods-CarQuiz";
+			productName = "Pods-CarQuiz";
+			productReference = 7CA3B98247C7D2BA1E1E1F1E819F478E /* Pods_CarQuiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F635AF0EC859A6CC126EB60A8F4F10C /* Pods-CarQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8E9851A6C2CAABFDAC05ADD940EB0E /* Build configuration list for PBXNativeTarget "Pods-CarQuizTests" */;
+			buildPhases = (
+				D0D66607BFEDE56EFD5C2952A4C097F3 /* Sources */,
+				E18CAAD2AE057AD356580274FC9FEDAA /* Frameworks */,
+				A40BFAC9570107C339C72F350F03E92C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarQuizTests";
+			productName = "Pods-CarQuizTests";
+			productReference = 843598031725A8E64E5BDB0A34090CF6 /* Pods_CarQuizTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76BE3118AA33263713B92C4F63ECD369 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB655A9305E429DABF0D95C6114D24D /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				2B6FFCB77292B2E4E667AD72292EB18B /* Sources */,
+				85BE9A4B15A8A3879A4899E48F0162C7 /* Frameworks */,
+				34379674C8EC1F652403815CFE89D435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 158500C9DBFCA47B4A035A04B73E612C /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1DE450DE8B64C7957461A9DDDC3A89E /* Pods-CarQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030AC8FB5C506EDDB882F361CDBBAB35 /* Build configuration list for PBXNativeTarget "Pods-CarQuizUITests" */;
+			buildPhases = (
+				41BCCD7DC01F7E5F2C018808F50CD1D5 /* Sources */,
+				DCBB81D39457CFE9B4864163571A4FAF /* Frameworks */,
+				E311C204B1AB631586889789C65806AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarQuizUITests";
+			productName = "Pods-CarQuizUITests";
+			productReference = 36BD0EBFAF47122A2A06386558AA25E2 /* Pods_CarQuizUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D95324BBA9345AD41E842604C24BF967 /* TKSwarmAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF42908BEF67643CD8019B94EE9217E /* Build configuration list for PBXNativeTarget "TKSwarmAlert" */;
+			buildPhases = (
+				B3E356A4BC91B61CE0F0683E79D226C9 /* Sources */,
+				2E353F812EF525D46D0783272F66ED98 /* Frameworks */,
+				EF1E25D76F7E4F6C1D608CB6C16AF1D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKSwarmAlert;
+			productName = TKSwarmAlert;
+			productReference = 974C361AE0C5159E7812C7417A407A9E /* TKSwarmAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DBCF7BC0D77D4D27A769997F0C6CAC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F71E44486F894C5050B759EF21A2569 /* Pods-CarQuiz */,
+				6F635AF0EC859A6CC126EB60A8F4F10C /* Pods-CarQuizTests */,
+				D1DE450DE8B64C7957461A9DDDC3A89E /* Pods-CarQuizUITests */,
+				76BE3118AA33263713B92C4F63ECD369 /* SDWebImage */,
+				D95324BBA9345AD41E842604C24BF967 /* TKSwarmAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6FFCB77292B2E4E667AD72292EB18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC7F6C2AB0DBB8FFE459FC461E044E3 /* NSData+ImageContentType.m in Sources */,
+				CAE5042E4DA8FB837E110AE67ED06DFC /* SDImageCache.m in Sources */,
+				FE7D5A42E4A23FFADB7BAAAE2EB8E79B /* SDWebImage-dummy.m in Sources */,
+				C485BADEA84DF7F6FE1B05ECAE3D352A /* SDWebImageCompat.m in Sources */,
+				304BCF1FA4642CBFB0E0A57AB4842641 /* SDWebImageDecoder.m in Sources */,
+				39AF2796441499986043CBF1BE0691C3 /* SDWebImageDownloader.m in Sources */,
+				402EC9506587F100F6ED6384BA775EC3 /* SDWebImageDownloaderOperation.m in Sources */,
+				0B49C328D74D52778AB3EAE51A1B4349 /* SDWebImageManager.m in Sources */,
+				862E76221658CE8BD424B297F3B7356D /* SDWebImagePrefetcher.m in Sources */,
+				257DE7E44DC41F82F0A433C951B21948 /* UIButton+WebCache.m in Sources */,
+				84DEA496E318DEA6BB0C1D0090463629 /* UIImage+GIF.m in Sources */,
+				C8A272A0BCB697522C5806BC5ECE44E6 /* UIImage+MultiFormat.m in Sources */,
+				EA2EAC2058C758D144B95818B7587233 /* UIImageView+HighlightedWebCache.m in Sources */,
+				566221ED26D0E937D4BAE3101BB49827 /* UIImageView+WebCache.m in Sources */,
+				B4C6DFBC0261D2889F8A14288A289074 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BCCD7DC01F7E5F2C018808F50CD1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22757EFF1136C92015C5AC6E0ADD874F /* Pods-CarQuizUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B70C2E07B05DF049BB4025B54FB9551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDEF2CE87179C8418C95B29AB2ABFEA /* Pods-CarQuiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E356A4BC91B61CE0F0683E79D226C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF156FB77B3B4FD54F837A22F0CD6EE8 /* BrightView.swift in Sources */,
+				39D446E7D92BC2BDC9A99FCF672A8FE8 /* CGRectEx.swift in Sources */,
+				9952357E19E6D47E8742DC946E51DD4B /* DynamicBlurView.swift in Sources */,
+				B7D87181342582902314CD30033C0296 /* FallingAnimationView.swift in Sources */,
+				97D47981EEADBEF7341BE2C0B0F77784 /* NSTimerEx.swift in Sources */,
+				71F56C095F264E7EF9F12DB1236D976C /* TKSwarmAlert-dummy.m in Sources */,
+				DB9843F4B55329A9104BD3F001C3D022 /* TKSwarmAlert.swift in Sources */,
+				1F292273446DCC4904252B23B5B05CCA /* TKSWBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D66607BFEDE56EFD5C2952A4C097F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F65E1932F0AA05D98E9C9688ABBF973 /* Pods-CarQuizTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A54A7797D629577994124EFD127C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 76BE3118AA33263713B92C4F63ECD369 /* SDWebImage */;
+			targetProxy = E82B3D1AA18C4D2A3C45D8C874373C31 /* PBXContainerItemProxy */;
+		};
+		2F6B26C0CD9D8304EB44B34EEF6B5283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSwarmAlert;
+			target = D95324BBA9345AD41E842604C24BF967 /* TKSwarmAlert */;
+			targetProxy = 188505DB9B5994764411B7888BCA4FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66A28D37E9384A513035BFFF48C2C879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A063375C540DD309D20973918E136EBC /* Pods-CarQuiz.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CarQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarQuiz/Pods-CarQuiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CarQuiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C1D4A050AA4CAACF485C61DEA0C4656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E69A1E3DF744BF089D1F12FB2B4CB13 /* TKSwarmAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSwarmAlert/TKSwarmAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSwarmAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSwarmAlert/TKSwarmAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TKSwarmAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F6855D9BA70F8F84ABE854C63C3FCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66694E215B038B42801283A14FB08DA /* Pods-CarQuizTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CarQuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarQuizTests/Pods-CarQuizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CarQuizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83DAB12DBC4ACA6C1AC3C04AFEF28067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B101086BEF582CEBFE99281A2D8C4F9F /* Pods-CarQuizTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CarQuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarQuizTests/Pods-CarQuizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CarQuizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E49C9A7CAF380743ABD48D7F1885A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A930D3A04AB54231D6E30394BB70D11 /* Pods-CarQuizUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CarQuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarQuizUITests/Pods-CarQuizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CarQuizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C820393F6982C03FC4D81A50EEA740FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E69A1E3DF744BF089D1F12FB2B4CB13 /* TKSwarmAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSwarmAlert/TKSwarmAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSwarmAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSwarmAlert/TKSwarmAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TKSwarmAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD82B83C11C3820D48A3381DF4E215A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AB7B857E4C354C1B9B7FF7CDF6730A /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC7F0FCF13FF6C1ABA00F2FF3F425341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0F510232DA5995F06E2ED8863C8C97 /* Pods-CarQuizUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CarQuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarQuizUITests/Pods-CarQuizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CarQuizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E90F975DD6507D234FDB690311E92B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AB7B857E4C354C1B9B7FF7CDF6730A /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD75D4ED9EF798B05A79D588F12C9918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D291E081815198FCAB82B144F79455E4 /* Pods-CarQuiz.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CarQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarQuiz/Pods-CarQuiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CarQuiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030AC8FB5C506EDDB882F361CDBBAB35 /* Build configuration list for PBXNativeTarget "Pods-CarQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E49C9A7CAF380743ABD48D7F1885A9 /* Debug */,
+				DC7F0FCF13FF6C1ABA00F2FF3F425341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8E9851A6C2CAABFDAC05ADD940EB0E /* Build configuration list for PBXNativeTarget "Pods-CarQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DAB12DBC4ACA6C1AC3C04AFEF28067 /* Debug */,
+				7F6855D9BA70F8F84ABE854C63C3FCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6385A803B992A844B3F7A33B3DBD427A /* Build configuration list for PBXNativeTarget "Pods-CarQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A28D37E9384A513035BFFF48C2C879 /* Debug */,
+				FD75D4ED9EF798B05A79D588F12C9918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF42908BEF67643CD8019B94EE9217E /* Build configuration list for PBXNativeTarget "TKSwarmAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1D4A050AA4CAACF485C61DEA0C4656 /* Debug */,
+				C820393F6982C03FC4D81A50EEA740FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB655A9305E429DABF0D95C6114D24D /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD82B83C11C3820D48A3381DF4E215A0 /* Debug */,
+				E90F975DD6507D234FDB690311E92B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

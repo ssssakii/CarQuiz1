@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-CarQuiz.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CarQuizTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CarQuizUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TKSwarmAlert.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5F71E44486F894C5050B759EF21A2569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F635AF0EC859A6CC126EB60A8F4F10C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76BE3118AA33263713B92C4F63ECD369</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1DE450DE8B64C7957461A9DDDC3A89E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D95324BBA9345AD41E842604C24BF967</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
