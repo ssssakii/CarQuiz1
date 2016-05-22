@@ -10,10 +10,13 @@ import UIKit
 import Social
 
 class ResultViewController: UIViewController {
+    
+    var score : Int!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(2)
         // Do any additional setup after loading the view.
         
         // twitterButton生成
@@ -23,9 +26,9 @@ class ResultViewController: UIViewController {
     /*****Twitter投稿*****/
     @IBAction func tapTwitter(sender: AnyObject) {
         //Twitterダイアログを作る
-        var cv = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        let cv = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
         //文字追加
-        cv.setInitialText("仮免試験のアプリでテストうけたよ！！")
+        cv.setInitialText("テストで" + ( String ) (score) + "点取ったよ！！")
         //投稿ダイアログを表示する
         self.presentViewController(cv, animated: true, completion: nil)
     }

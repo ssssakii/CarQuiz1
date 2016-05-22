@@ -21,30 +21,13 @@ class ViewController: UIViewController, UIToolbarDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        /*
-        let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        if saveData.objectForKey("colortag") != nil {
-            let color = saveData.objectForKey("colortag") as! Int
-            switch color {
-            case 1:
-                self.view.backgroundColor = UIColor.yellowColor()
-            case 2:
-                self.view.backgroundColor = UIColor.greenColor()
-            case 3:
-                self.view.backgroundColor = UIColor.blueColor()
-            default:
-                print("error!")
-            }
-        }
-        */
-        
-        self.view.backgroundColor = UIColor.yellowColor()
+        self.view.backgroundColor = UIColor.whiteColor()
         //imageView作成
-        self.logoImageView = UIImageView(frame: CGRectMake(0, 0, 100, 100))
+        self.logoImageView = UIImageView(frame: CGRectMake(0, 0, 200, 200))
         //画面centerに
         self.logoImageView.center = self.view.center
         //logo設定
-        self.logoImageView.image = UIImage(named: "tick")
+        self.logoImageView.image = UIImage(named: "clear_icon")
         //viewに追加
         self.view.addSubview(self.logoImageView)
         
@@ -61,9 +44,9 @@ class ViewController: UIViewController, UIToolbarDelegate {
         myToolbar.layer.position = CGPoint(x: self.view.bounds.size.width/2, y: self.view.bounds.size.height-20.0)
         
         // ツールバーの色を決める.
-        myToolbar.barStyle = .BlackTranslucent
+        myToolbar.barStyle = .Default
         myToolbar.tintColor = UIColor.blackColor()
-        myToolbar.backgroundColor = UIColor.whiteColor()
+        
         
         // ボタン１を生成
         let myUIBarButtonYellow: UIBarButtonItem = UIBarButtonItem(title: "Yellow", style: .Plain, target: self, action: "onClickButton:" )
@@ -77,7 +60,6 @@ class ViewController: UIViewController, UIToolbarDelegate {
         // ボタン３を生成
         let myUIBarButtonBlue: UIBarButtonItem = UIBarButtonItem(title: "Blue", style: .Plain, target: self, action: "onClickButton:" )
         myUIBarButtonBlue.tag = 3
-        
         
         // ボタンをツールバーに入れる.
         myToolbar.items = [myUIBarButtonYellow, myUIBarButtonGreen, myUIBarButtonBlue]
@@ -146,7 +128,8 @@ class ViewController: UIViewController, UIToolbarDelegate {
     @IBAction func toQuestion() {
         //self.performSegueWithIdentifier("toQuestionViewController", sender: nil)
     }
-
+    
+   
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

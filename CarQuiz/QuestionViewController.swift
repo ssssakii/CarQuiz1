@@ -15,11 +15,15 @@ class QuestionViewController: UIViewController {
     //問題の写真
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var questionText: UITextView!
+    @IBOutlet var hpBar: UISlider!
     
+    var hp: Float = 10
     var csvData: [Question] = []
     
     //今の問題番号
     var nowIndex: Int = 0
+    // ランムの数
+    var random = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +32,9 @@ class QuestionViewController: UIViewController {
         
         LoadCSV()        // ----- CSVファイル読み込み
         QuestionInit()
+        
+        // hpBarの大きさ
+        hpBar.transform = CGAffineTransformMakeScale(1, 7)
         
     }
     
@@ -110,12 +117,21 @@ class QuestionViewController: UIViewController {
         if answer == self.csvData[self.nowIndex].correct{
             return true
         }else{
+            hp -= 1
+            hpBar.value = hp
+            if hp == 0 {
+                let secondViewController: ResultViewController = self.storyboard?.instantiateViewControllerWithIdentifier("secondVC") as! ResultViewController
+                secondViewController.score = nowIndex
+                
+                self.presentViewController(secondViewController, animated: true, completion: nil)
+
+            }
             return false
         }
     }
     
     func LoadCSV(){
-        let csvBundle = NSBundle.mainBundle().pathForResource("data", ofType: "csv")
+        let csvBundle = NSBundle.mainBundle().pathForResource("data2", ofType: "csv")
         do {
             var csvData: String = try String(contentsOfFile: csvBundle!, encoding: NSUTF8StringEncoding)
             csvData = csvData.stringByReplacingOccurrencesOfString("\r", withString: "")
@@ -145,7 +161,8 @@ class QuestionViewController: UIViewController {
                     j += 1
                 }
             }
-            self.questionText.text = self.csvData[self.nowIndex].questionText
+            random = shuffled(0..<200)
+            //self.questionText.text = self.csvData[random[nowIndex]].questionText
             if self.csvData[self.nowIndex].imageName != "null"{
                 self.imageView.image = UIImage(named: self.csvData[self.nowIndex].imageName)
             }else{
@@ -162,4 +179,24 @@ class QuestionViewController: UIViewController {
         var infoText:String!
         var imageName:String!
     }
+    
+    //　シャッフル
+    func shuffle<T>(inout csvArray: [T]) {
+        for var j = csvArray.count - 1; j > 0; j-- {
+            var k = Int(arc4random_uniform(UInt32(j + 1))) // 0 <= k <= j
+            swap(&csvArray[k], &csvArray[j])
+        }
+    }
+    
+    func shuffled<S: SequenceType>(source: S) -> [S.Generator.Element] {
+        var copy = Array<S.Generator.Element>(source)
+        shuffle(&copy)
+        return copy
+    }
+    
+
+
+    
+    
+    
 }
