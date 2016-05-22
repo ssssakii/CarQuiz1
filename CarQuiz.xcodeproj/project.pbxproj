@@ -18,9 +18,9 @@
 		840539121CEB69950056F345 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539111CEB69950056F345 /* QuestionViewController.swift */; };
 		840539141CEB69A70056F345 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539131CEB69A70056F345 /* ResultViewController.swift */; };
 		840539161CEB69C90056F345 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840539151CEB69C90056F345 /* AnswerViewController.swift */; };
-		84ADC22D1CEE1B150064968C /* car-front-in-magnifier-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */; settings = {ASSET_TAGS = (); }; };
-		84ADC22F1CEE1BB00064968C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22E1CEE1BB00064968C /* icon.png */; settings = {ASSET_TAGS = (); }; };
-		84ADC2311CEE1DF60064968C /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC2301CEE1DF60064968C /* tick.png */; settings = {ASSET_TAGS = (); }; };
+		84ADC22D1CEE1B150064968C /* car-front-in-magnifier-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */; };
+		84ADC22F1CEE1BB00064968C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22E1CEE1BB00064968C /* icon.png */; };
+		84ADC2311CEE1DF60064968C /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC2301CEE1DF60064968C /* tick.png */; };
 		84E19A0E1CE8D82300E3DFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */; };
 		84E19A101CE8D82300E3DFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E19A0F1CE8D82300E3DFCD /* ViewController.swift */; };
 		84E19A131CE8D82300E3DFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E19A111CE8D82300E3DFCD /* Main.storyboard */; };
@@ -105,6 +105,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0306ACFA1CF13BC3002B9D08 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E19A0F1CE8D82300E3DFCD /* ViewController.swift */,
+				840539111CEB69950056F345 /* QuestionViewController.swift */,
+				840539151CEB69C90056F345 /* AnswerViewController.swift */,
+				840539131CEB69A70056F345 /* ResultViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		03BABB3F1CED7EBE0009A4F5 /* Resourse */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +139,7 @@
 		03BABB411CED7ED00009A4F5 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				84ADC22E1CEE1BB00064968C /* icon.png */,
 			);
 			name = Icon;
 			sourceTree = "<group>";
@@ -135,6 +147,8 @@
 		03BABB421CED7ED50009A4F5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				84ADC2301CEE1DF60064968C /* tick.png */,
+				84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -191,19 +205,13 @@
 		84E19A0C1CE8D82300E3DFCD /* CarQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				0306ACFA1CF13BC3002B9D08 /* ViewControllers */,
 				03BABB3F1CED7EBE0009A4F5 /* Resourse */,
 				03E96F071CEB8AFA006AC050 /* Manager */,
 				84E19A0D1CE8D82300E3DFCD /* AppDelegate.swift */,
-				84E19A0F1CE8D82300E3DFCD /* ViewController.swift */,
-				840539111CEB69950056F345 /* QuestionViewController.swift */,
-				840539151CEB69C90056F345 /* AnswerViewController.swift */,
-				840539131CEB69A70056F345 /* ResultViewController.swift */,
 				84E19A111CE8D82300E3DFCD /* Main.storyboard */,
 				03ADA61E1CED348C004889AB /* data.csv */,
 				84E19A141CE8D82300E3DFCD /* Assets.xcassets */,
-				84ADC2301CEE1DF60064968C /* tick.png */,
-				84ADC22E1CEE1BB00064968C /* icon.png */,
-				84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */,
 				84E19A161CE8D82300E3DFCD /* LaunchScreen.storyboard */,
 				84E19A191CE8D82300E3DFCD /* Info.plist */,
 			);
