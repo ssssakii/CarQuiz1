@@ -104,7 +104,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hu-8M-imN">
                                 <rect key="frame" x="112" y="213" width="97" height="99"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="10" maximumValueImage="car-front-in-magnifier-glass.png" translatesAutoresizingMaskIntoConstraints="NO" id="tyG-b4-wbW">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="tyG-b4-wbW">
                                 <rect key="frame" x="38" y="492" width="249" height="31"/>
                                 <color key="backgroundColor" red="0.18823529411764706" green="0.45098039215686275" blue="0.50196078431372548" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.14117647058823529" green="0.19215686274509805" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
@@ -184,6 +184,5 @@
     </scenes>
     <resources>
         <image name="backgroundimage.jpeg" width="168" height="300"/>
-        <image name="car-front-in-magnifier-glass.png" width="24" height="24"/>
     </resources>
 </document>

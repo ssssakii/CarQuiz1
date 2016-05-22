@@ -160,7 +160,7 @@ class QuestionViewController: UIViewController {
                     j += 1
                 }
             }
-            shuffle(922)
+            //shuffle(922)
             //self.questionText.text = self.csvData[random[nowIndex]].questionText
             if self.csvData[self.nowIndex].imageName != "null"{
                 self.imageView.image = UIImage(named: self.csvData[self.nowIndex].imageName)
@@ -178,6 +178,7 @@ class QuestionViewController: UIViewController {
         var infoText:String!
         var imageName:String!
     }
+    
     
     //　シャッフル
     func shuffle( loopCount : Int){

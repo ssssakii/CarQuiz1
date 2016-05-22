@@ -71,6 +71,9 @@
 		8433B0771CF1B5710095045F /* clear_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433B0761CF1B5710095045F /* clear_icon.png */; };
 		8433B0791CF1BA650095045F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433B0781CF1BA650095045F /* icon.png */; };
 		8433B07B1CF1BDFE0095045F /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433B07A1CF1BDFE0095045F /* twitter.png */; };
+		8433B07D1CF1C5BA0095045F /* img01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8433B07C1CF1C5BA0095045F /* img01.gif */; };
+		8433B07F1CF1C5BF0095045F /* img02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8433B07E1CF1C5BF0095045F /* img02.gif */; };
+		8433B0811CF1C5C20095045F /* img03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8433B0801CF1C5C20095045F /* img03.jpg */; };
 		84ADC22D1CEE1B150064968C /* car-front-in-magnifier-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */; };
 		84ADC22F1CEE1BB00064968C /* redicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC22E1CEE1BB00064968C /* redicon.png */; };
 		84ADC2311CEE1DF60064968C /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC2301CEE1DF60064968C /* tick.png */; };
@@ -169,6 +172,9 @@
 		8433B0761CF1B5710095045F /* clear_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_icon.png; sourceTree = "<group>"; };
 		8433B0781CF1BA650095045F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8433B07A1CF1BDFE0095045F /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		8433B07C1CF1C5BA0095045F /* img01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img01.gif; sourceTree = "<group>"; };
+		8433B07E1CF1C5BF0095045F /* img02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img02.gif; sourceTree = "<group>"; };
+		8433B0801CF1C5C20095045F /* img03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img03.jpg; sourceTree = "<group>"; };
 		84ADC22C1CEE1B150064968C /* car-front-in-magnifier-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car-front-in-magnifier-glass.png"; sourceTree = "<group>"; };
 		84ADC22E1CEE1BB00064968C /* redicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redicon.png; sourceTree = "<group>"; };
 		84ADC2301CEE1DF60064968C /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
@@ -318,6 +324,9 @@
 				8433B0251CF1B4DB0095045F /* D_img29.gif */,
 				8433B0261CF1B4DB0095045F /* D_img30.gif */,
 				8433B0271CF1B4DB0095045F /* D_img31.gif */,
+				8433B07C1CF1C5BA0095045F /* img01.gif */,
+				8433B07E1CF1C5BF0095045F /* img02.gif */,
+				8433B0801CF1C5C20095045F /* img03.jpg */,
 				8433B0281CF1B4DB0095045F /* img04.gif */,
 				8433B0291CF1B4DB0095045F /* img05.gif */,
 				8433B02A1CF1B4DB0095045F /* img06.gif */,
@@ -535,12 +544,14 @@
 				8433B0701CF1B4DB0095045F /* img26.gif in Resources */,
 				8433B0491CF1B4DB0095045F /* D_img15.jpg in Resources */,
 				8433B0621CF1B4DB0095045F /* img12.gif in Resources */,
+				8433B07F1CF1C5BF0095045F /* img02.gif in Resources */,
 				03ADA61F1CED348C004889AB /* data.csv in Resources */,
 				8433B0471CF1B4DB0095045F /* D_img13.gif in Resources */,
 				8433B0451CF1B4DB0095045F /* D_img11.gif in Resources */,
 				8433B06B1CF1B4DB0095045F /* img21.gif in Resources */,
 				8433B05A1CF1B4DB0095045F /* img04.gif in Resources */,
 				84E19A181CE8D82300E3DFCD /* LaunchScreen.storyboard in Resources */,
+				8433B07D1CF1C5BA0095045F /* img01.gif in Resources */,
 				8433B0481CF1B4DB0095045F /* D_img14.gif in Resources */,
 				8433B0561CF1B4DB0095045F /* D_img28.gif in Resources */,
 				8433B04F1CF1B4DB0095045F /* D_img21.gif in Resources */,
@@ -578,6 +589,7 @@
 				8433B0441CF1B4DB0095045F /* D_img10.gif in Resources */,
 				8433B04D1CF1B4DB0095045F /* D_img19.jpg in Resources */,
 				8433B0571CF1B4DB0095045F /* D_img29.gif in Resources */,
+				8433B0811CF1C5C20095045F /* img03.jpg in Resources */,
 				84E19A151CE8D82300E3DFCD /* Assets.xcassets in Resources */,
 				84ADC2311CEE1DF60064968C /* tick.png in Resources */,
 				8433B04B1CF1B4DB0095045F /* D_img17.gif in Resources */,
