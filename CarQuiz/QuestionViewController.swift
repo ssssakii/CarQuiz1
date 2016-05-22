@@ -22,8 +22,7 @@ class QuestionViewController: UIViewController {
     
     //今の問題番号
     var nowIndex: Int = 0
-    // ランムの数
-    var random = []
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -161,7 +160,7 @@ class QuestionViewController: UIViewController {
                     j += 1
                 }
             }
-            random = shuffled(0..<200)
+            shuffle(922)
             //self.questionText.text = self.csvData[random[nowIndex]].questionText
             if self.csvData[self.nowIndex].imageName != "null"{
                 self.imageView.image = UIImage(named: self.csvData[self.nowIndex].imageName)
@@ -181,22 +180,19 @@ class QuestionViewController: UIViewController {
     }
     
     //　シャッフル
-    func shuffle<T>(inout csvArray: [T]) {
-        for var j = csvArray.count - 1; j > 0; j-- {
-            var k = Int(arc4random_uniform(UInt32(j + 1))) // 0 <= k <= j
-            swap(&csvArray[k], &csvArray[j])
+    func shuffle( loopCount : Int){
+        
+        let maxArrayLength:Int = csvData.count
+        var i = 0
+        var random:Int!
+        var x: Question!
+        while loopCount > i {
+            i += 1
+            random = (Int)(arc4random()) % maxArrayLength
+            x = csvData[random]
+            csvData[random] = csvData[0]
+            csvData[0] = x
         }
     }
-    
-    func shuffled<S: SequenceType>(source: S) -> [S.Generator.Element] {
-        var copy = Array<S.Generator.Element>(source)
-        shuffle(&copy)
-        return copy
-    }
-    
 
-
-    
-    
-    
 }
